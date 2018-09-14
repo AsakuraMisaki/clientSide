@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TestCase</title>
+    <meta charset="utf-8">
+    <meta name="author" content="MISAKI">
+    <meta name="keywords" content="TestCase, html5">
+    <link rel="stylesheet" type="text/css" href="./TestCase.css">
+    <link rel="stylesheet" type="text/css" href="../qunit/qunit.css">
+    <script src="../qunit/qunit.js"></script>
+    <script data-main="./js/main.js" src="./js/require.js"></script>
+</head>
+
+<body>
+    <div id="vue" v-on:click="vueTest()">
+        <h1>VUE MES： {{mes}}</h1>
+    </div>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+</body>
+
+</html>
