@@ -6,10 +6,11 @@ require.config({
 
         //unknown conflict: qunit can not work at this way
         // "qunit": ["../../qunit/qunit"],
+        //"qunitTest":["./qunitTest"],
 
         "vueDev": ["./vueDev"],
         "testCompare":["./testCompare"],
-        "qunitTest":["./qunitTest"]
+        
     },
 
 
@@ -17,6 +18,6 @@ require.config({
 
 });
 
-require(["vueDev", "testCompare", "qunitTest"], function(){
+require(["vueDev", "testCompare"], function(vueDev, testCompare){
 	//testCase.HelloJS();
 });

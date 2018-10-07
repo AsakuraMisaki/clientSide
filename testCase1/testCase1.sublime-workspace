@@ -4,16 +4,164 @@
 		"selected_items":
 		[
 			[
-				"testCase",
-				"testCaseCompare"
+				"ba",
+				"background-color\tproperty"
 			],
 			[
 				"font",
+				"font-size\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
+				"wor",
+				"word-spacing\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"oc",
+				"opacity\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"bor",
+				"border-width\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"bo",
+				"box-sizing\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"ovwe",
+				"overflow\tproperty"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"fle",
+				"flex-end\talign-self"
+			],
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"ov",
+				"overflow\tproperty"
+			],
+			[
+				"min-",
+				"min-width\tproperty"
+			],
+			[
+				"fon",
 				"font-style\tproperty"
 			],
 			[
-				"ba",
-				"background-image\tproperty"
+				"row",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"e",
+				"embed\tTag"
+			],
+			[
+				"Re",
+				"RegExp\t( pattern: any, flags: string ): RegExp RegExp"
+			],
+			[
+				"ind",
+				"indexOf\t( searchString: string, position?: int ): int String"
+			],
+			[
+				"vueI",
+				"vueImitate"
+			],
+			[
+				"createT",
+				"createTextNode\t( data: DOMString ): Text Document"
+			],
+			[
+				"append",
+				"appendChild\t( node: Node ): Node Node"
+			],
+			[
+				"getEl",
+				"getElementsByTagName\t( localName: DOMString ): HTMLCollection Element"
+			],
+			[
+				"cr",
+				"createElement\t( localName: DOMString ): Element Document"
+			],
+			[
+				"ex",
+				"express"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"testCase",
+				"testCaseCompare"
 			],
 			[
 				"h",
@@ -164,55 +312,55 @@
 	"buffers":
 	[
 		{
-			"file": "TestCase.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 613,
+				"buffer_size": 5148,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/main.js",
+			"file": "css/TestCase.css",
 			"settings":
 			{
-				"buffer_size": 506,
+				"buffer_size": 2207,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/qunitTest.js",
+			"file": "css/mediaQuery.css",
 			"settings":
 			{
-				"buffer_size": 83,
+				"buffer_size": 393,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/testCompare.js",
+			"file": "js/vueTest.js",
 			"settings":
 			{
-				"buffer_size": 92,
+				"buffer_size": 686,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/vueDev.js",
+			"file": "js/JSTest.js",
 			"settings":
 			{
-				"buffer_size": 237,
+				"buffer_size": 850,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "TestCase.css",
+			"file": "nodeServer.js",
 			"settings":
 			{
-				"buffer_size": 411,
+				"buffer_size": 305,
 				"line_ending": "Windows"
 			}
 		}
@@ -417,33 +565,64 @@
 	},
 	"expanded_folders":
 	[
-		"/D/GitHub/Projects/clientSide/testCase",
-		"/D/GitHub/Projects/clientSide/testCase/js"
+		"/D/GitHub/Projects/clientSide/testCase1",
+		"/D/GitHub/Projects/clientSide/testCase1/css",
+		"/D/GitHub/Projects/clientSide/testCase1/note"
 	],
 	"file_history":
 	[
+		"/D/GitHub/Projects/clientSide/testCase1/note/CssNote.css",
+		"/D/GitHub/Projects/clientSide/testCase1/js/qunitTest.js",
+		"/D/GitHub/Projects/clientSide/testCase1/nodeServer.js",
+		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/Main.js",
+		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/globalDefination.js",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/search.svg",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/D/GitHub/Projects/clientSide/testCase1/Note/JS+C_SNote.md",
+		"/D/GitHub/Projects/clientSide/testCase1/JS Frame Note.md",
+		"/D/GitHub/Projects/clientSide/testCase1/js/nodeServer.js",
+		"/D/GitHub/Projects/clientSide/testCase1/css/CssNote.css",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/menu.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/user.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/guide.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/search press.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/drag.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/circle.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/css/TestCase.css",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/HTMLPrettify.sublime-settings",
+		"/D/GitHub/Projects/clientSide/testCase/js/nodeServer.js",
+		"/D/GitHub/Projects/clientSide/testCase/TestCase.css",
+		"/D/GitHub/Projects/clientSide/testCase/CssNote.css",
+		"/D/GitHub/Projects/clientSide/testCase/js/JSTest.js",
+		"/D/GitHub/Projects/clientSide/testCase/js/vueTest.js",
+		"/D/GitHub/Projects/clientSide/testCase/TestCase.html",
+		"/D/GitHub/Projects/clientSide/testCase/JS Frame Note.md",
+		"/D/GitHub/Projects/clientSide/testCase/js/qunitTest.js",
+		"/D/GitHub/Projects/nodeJSServer/test/res.js",
+		"/D/GitHub/Projects/nodeJSServer/test/main.js",
+		"/D/GitHub/Projects/nodeJSServer/test/test.js",
+		"/D/GitHub/Projects/clientSide/testCase/Bootstrap.css",
+		"/D/GitHub/Projects/java/practice/6.java",
+		"/D/GitHub/Projects/clientSide/testCase/clientSide.sublime-project",
+		"/D/GitHub/Projects/clientSide/testCase/js/main.js",
+		"/D/GitHub/Projects/clientSide/testCase/js/vueDev.js",
+		"/D/GitHub/Projects/clientSide/testCase/js/testCompare.js",
 		"/D/GitHub/Projects/clientSide/qunit/qunit.js",
 		"/D/GitHub/Projects/clientSide/testCase/js/qunit.js",
-		"/D/GitHub/Projects/clientSide/testCase/CssNote.css",
-		"/D/GitHub/Projects/clientSide/testCase/TestCase.css",
 		"/D/GitHub/Projects/clientSide/testCase/main.js",
 		"/D/GitHub/Projects/clientSide/testCase/js/TestCase.js",
 		"/D/GitHub/Projects/clientSide/testCase/TestCase.js",
 		"/D/GitHub/Projects/clientSide/testCase/js/require.js",
 		"/D/GitHub/Projects/clientSide/testCase/require.js",
-		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
-		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
-		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/HTMLPrettify.sublime-settings",
 		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/.jsbeautifyrc",
 		"/D/GitHub/Projects/clientSide/clientSide.sublime-project",
 		"/D/GitHub/Projects/clientSide/testCase.js",
 		"/D/GitHub/Projects/clientSide/testCase.css",
 		"/D/GitHub/Projects/clientSide/testCase.html",
-		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/globalDefination.js",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/req.js",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/mysqlTest.js",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/mysql.js",
-		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/Main.js",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/(JS)QA.js",
 		"/D/GitHub/Projects/java/HelloJava/DataStructure/Stack.java",
 		"/D/GitHub/Projects/java/HelloJava/SortAndFind/Find.java",
@@ -519,41 +698,11 @@
 		"/D/Program Files (x86)/GitHub/Projects/WeChat-nodejs/client/config.js",
 		"/D/Program Files (x86)/GitHub/Projects/WeChat-nodejs/client/vendor/wafer2-client-sdk/index.js",
 		"/D/Program Files (x86)/GitHub/Projects/WeChat-nodejs/server/app.js",
-		"/D/Program Files (x86)/GitHub/Projects/WeChat-nodejs/project.config.json",
-		"/D/Program Files (x86)/GitHub/Projects/WeChat-nodejs/client/app.json",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/node_modules/uuid/README.md",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/package.json",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/gstes/nodejs/SH/Main.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/test.json",
-		"/D/Program Files/nodeJS/node_modules/g/node_modules/jshint/README.md",
-		"/D/Program Files/nodeJS/node_modules/g/node_modules/jshint/jshintrc",
-		"/D/Program Files/nodeJS/node_modules/g/node_modules/jshint/node_modules/shelljs/.jshintrc",
-		"/D/Program Files/nodeJS/node_modules/g/node_modules/jshint/node_modules/exit/.jshintrc",
-		"/D/Program Files/nodeJS/node_modules/g/node_modules/jshint/node_modules/shelljs/package.json",
-		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/D/Program Files/nodeJS/node_modules/g/node_modules/jshint/node_modules/shelljs/README.md",
-		"/D/Program Files/nodeJS/node_modules/g/node_modules/uuid/README.md",
-		"/D/Program Files/nodeJS/node_modules/npm/npmrc",
-		"/D/Program Files/nodeJS/node_modules/g/etc/npmrc",
-		"/D/About Anime/憎恶/origin document/X.TXT",
-		"/D/Program Files/nodeJS/node_modules/g/jshint",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/ExpressNodeQA.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/QATest.js",
-		"/D/my document/Documents/aes-sample/Node/WXBizDataCrypt.js",
-		"/D/my document/Documents/aes-sample/Node/demo.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/globalDefine.js",
-		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/Nodejs/Nodejs.sublime-build",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/user/userInfo.json",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/user/id/id.json",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/user/package.json",
-		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/ConvertToUTF8/ConvertToUTF8.sublime-settings",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/loginCode.json",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/userInfo-req.js"
+		"/D/Program Files (x86)/GitHub/Projects/WeChat-nodejs/project.config.json"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -567,6 +716,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"true",
+			"arrow.png",
+			"margin",
+			"left",
+			"\");\n",
+			"Z",
 			";\n",
 			"background"
 		],
@@ -586,109 +741,82 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "TestCase.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 613,
+						"buffer_size": 5148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								596,
-								596
+								1770,
+								1770
 							]
 						],
 						"settings":
 						{
 							"SL.13.region_keys":
 							[
-								"SL.jshint.Highlights.|11fbb2a038f3b4c4d6c43d5021175218776460a74a75be8582d5595067734f91|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|b563c5293c758db3b7df3a0bea6b1ba533982790fe58386bb5971dcf1d9485f2|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|f8b87c76cc45c2e1574bb0cbeb293b2e1db351e7c24f95a82a3e749b1d8e1975|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|c6a45f59b4916e5f453e0c3546498b2fa6e15ffdfa9203d0a4c2eab2a5224a88|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|b11e8fdbe39639aeb0c5ceb0b28c95dc5183366f204c8f60fa32a171ba4019f1|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|954a1e353868ec1ac7bb6b8684e23fccd528fb98d5869f2fdff299890f6f3e9c|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.jshint.Highlights.|ffbbe69277b7b04718321cfd54b1dd79d5c8401ef652eb87175f8c857a09d215|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|295781e9ad1b7a9b30953af409eaca2ef2e9bc5ac7f1f4455517cf855411be94|region.redish markup.error.sublime_linter|32",
-								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|22ace9c90bae6421bfe1cfa4f4818612df097d8d8abd832cf97e9ca18f89bb6b|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|ba1a027e84ff7a91e8599f410fd3a3302b26899df14296de8c2a560160bf9f91|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|9b743ddb84fd42a9fa2b4a1c189dc75f0ae8c598214687aaa44e9857f5cc9295|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|68795e6c1e8e9d77a0f4efdbd0fa78147e4743ffb34fae6fd0cf927aeb07a1d4|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|0676082d03097f234966c805219bbff1006a7d2d491f3a519e767c90c00422cf|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|8e4604009522c353d61003e84a672c7533ae2227710ae25958d2264d28a88a9a|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|b7192f1eb15e8f95c676ff7325ad01a655d4446332d412619d313f8ea98d0c56|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|c4a5809766d0888fa9cb291a23c7da4e9c703e8661232f67697bebc2b0129443|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|01b4ca5e09d4d32e39ec42066f696fc00c75b68bc07a9a46abce493d640bdffe|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|54d8fbf26da9f519be51f3cc6bde0fc01375c248809d414d949204ed56d937d3|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|fcf9b667ed55ead0777b21318e22df9567e6671cc8b18c59de64ac3ee693b8c4|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|ce12b411766b1221f75cd314798e0c61b50110d574bc726eed6b42e347ba4762|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|f170c70d6787e8cb3e724c4b856b0760e890cf962d527238e561a846e5734a99|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|210d63acfdd99c6ddd2190fb7f435057b4a9d026319796cc47e93a09fcf56e4a|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|48f54139e2abe27c7e49ca75ff88c9ece5500a56f552b7b81b39def31ec76afd|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|c525c1f60e590ed8a8e7886e4fd8acb15cdc2b93d6eabfc32fff717cabd45f77|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Gutter.|region.redish markup.error.sublime_linter|dot",
-								"SL.jshint.Highlights.|2a6bdeb3a1c553acce1847574202b5b5ff4c5093a9d9570942b730f75c193593|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|b6d4ba6f13d82e9fab7deb13efac93f0c07f49a0915728546d3add7b6ecdb64b|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|d5cea5431ab1bf27b2bb322ba79529bacd17030c5d0c3b6e0fa9a84f63292058|region.yellowish markup.warning.sublime_linter|32"
-							],
-							"SL.17.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"SL.34.region_keys":
-							[
+								"SL.jshint.Highlights.|0bbdd784b37ec3767f2e4ce556d486937a898c97700b6aa77fa04f362c09d387|region.redish markup.error.sublime_linter|32",
+								"SL.jshint.Highlights.|8e9762b91665f425aa09125d381a409fbb1ea0ff86b0a8015addf8cd077fa3ab|region.redish markup.error.sublime_linter|32",
 								"SL.jshint.Gutter.|region.redish markup.error.sublime_linter|dot",
 								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|b11e8fdbe39639aeb0c5ceb0b28c95dc5183366f204c8f60fa32a171ba4019f1|region.redish markup.error.sublime_linter|32"
+								"SL.jshint.Highlights.|7b4c9bebb1ddffd0c6e5ba88eef2f197c307ef1e9ceb0121015f72617bd4ce36|region.redish markup.error.sublime_linter|32"
+							],
+							"SL.15.region_keys":
+							[
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 363.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/main.js",
+					"file": "css/TestCase.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 506,
+						"buffer_size": 2207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								479,
-								479
+								1089,
+								1089
 							]
 						],
 						"settings":
 						{
-							"SL.30.region_keys":
+							"SL.14.region_keys":
 							[
-								"sublime_linter.protected_regions"
 							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"SL.16.region_keys":
+							[
+							],
+							"color_scheme": "Packages/User/ColorHighlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1242.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -696,31 +824,26 @@
 				},
 				{
 					"buffer": 2,
-					"file": "js/qunitTest.js",
+					"file": "css/mediaQuery.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 83,
+						"buffer_size": 393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								79,
-								79
+								48,
+								48
 							]
 						],
 						"settings":
 						{
-							"SL.36.region_keys":
-							[
-								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|90d85ecd9220dc27c5b6cca16f8e013d2ca7e28d0afaa0ae45383c1a805e6785|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|976b7abb13bcb9dc0471c1da0aec0b9d933d0c34efa511c5ad0f9ca1473ae726|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"color_scheme": "Packages/User/ColorHighlighter/themes/Material-Theme-Darker.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -728,33 +851,64 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "js/testCompare.js",
+					"file": "js/vueTest.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 92,
+						"buffer_size": 686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3,
-								92
+								192,
+								192
 							]
 						],
 						"settings":
 						{
-							"SL.32.region_keys":
+							"SL.15.region_keys":
 							[
+								"SL.jshint.Highlights.|4f4cd2e7a62a76468b5d3c1115112a70e03bf9779152040f114e8e4f1afa7773|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|29e5728cef3d99aeda3c822e95d363fa2749547f96dc3db79326fdd9eeb6d20c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|83b392696bde9c57fcb93f5e7f5f43b9531a8b602dc84c63bfdce7a21628ac8b|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.16.region_keys":
+							[
+								"SL.jshint.Highlights.|83b392696bde9c57fcb93f5e7f5f43b9531a8b602dc84c63bfdce7a21628ac8b|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|29e5728cef3d99aeda3c822e95d363fa2749547f96dc3db79326fdd9eeb6d20c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|4f4cd2e7a62a76468b5d3c1115112a70e03bf9779152040f114e8e4f1afa7773|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"SL.17.region_keys":
+							[
+								"SL.jshint.Highlights.|83b392696bde9c57fcb93f5e7f5f43b9531a8b602dc84c63bfdce7a21628ac8b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|4f4cd2e7a62a76468b5d3c1115112a70e03bf9779152040f114e8e4f1afa7773|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|29e5728cef3d99aeda3c822e95d363fa2749547f96dc3db79326fdd9eeb6d20c|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.21.region_keys":
+							[
+								"SL.jshint.Highlights.|83b392696bde9c57fcb93f5e7f5f43b9531a8b602dc84c63bfdce7a21628ac8b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|4f4cd2e7a62a76468b5d3c1115112a70e03bf9779152040f114e8e4f1afa7773|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|b8b06e664a531f00f5dec0f5579dd62d4d545041cf3c5b5b909d48c5317de401|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|29e5728cef3d99aeda3c822e95d363fa2749547f96dc3db79326fdd9eeb6d20c|region.yellowish markup.warning.sublime_linter|32",
 								"sublime_linter.protected_regions"
 							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -765,67 +919,91 @@
 				},
 				{
 					"buffer": 4,
-					"file": "js/vueDev.js",
+					"file": "js/JSTest.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 237,
+						"buffer_size": 850,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								201,
-								201
+								476,
+								476
 							]
 						],
 						"settings":
 						{
-							"SL.29.region_keys":
+							"SL.16.region_keys":
 							[
 								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|43d663f610595c8efec7aa9706331e407d201c046a4d7b35e5ecc02add1999da|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|7a307c60629bca9b9502117f7d832e5ef5836a265430f1a396bdcbdcf9baf490|region.yellowish markup.warning.sublime_linter|32",
 								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.jshint.Highlights.|646beaff86eaa3386c6592f430876144fd77ee078c52b5192c9f5944e54e4a10|region.yellowish markup.warning.sublime_linter|32"
+								"SL.jshint.Highlights.|1723fded4380ad22d284424b3954e131f96914fc1d2a7eabff209356ba3617d2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|25fa59ca7b38f04f726fc850338d337733b41c2f44d2b96f2823cab2e41bce3d|region.yellowish markup.warning.sublime_linter|32"
 							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"SL.17.region_keys":
+							[
+								"SL.jshint.Highlights.|7a307c60629bca9b9502117f7d832e5ef5836a265430f1a396bdcbdcf9baf490|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|25fa59ca7b38f04f726fc850338d337733b41c2f44d2b96f2823cab2e41bce3d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|1723fded4380ad22d284424b3954e131f96914fc1d2a7eabff209356ba3617d2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|43d663f610595c8efec7aa9706331e407d201c046a4d7b35e5ecc02add1999da|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"SL.18.region_keys":
+							[
+								"SL.jshint.Highlights.|43d663f610595c8efec7aa9706331e407d201c046a4d7b35e5ecc02add1999da|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|25fa59ca7b38f04f726fc850338d337733b41c2f44d2b96f2823cab2e41bce3d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|1723fded4380ad22d284424b3954e131f96914fc1d2a7eabff209356ba3617d2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|7a307c60629bca9b9502117f7d832e5ef5836a265430f1a396bdcbdcf9baf490|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "nodeServer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+							],
+							"SL.22.region_keys":
+							[
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "TestCase.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 411,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/ColorHighlighter/themes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -883,7 +1061,7 @@
 		"height": 126.0
 	},
 	"pinned_build_system": "",
-	"project": "clientSide.sublime-project",
+	"project": "testCase1.sublime-project",
 	"replace":
 	{
 		"height": 54.0
@@ -932,7 +1110,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 214.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

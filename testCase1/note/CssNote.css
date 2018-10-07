@@ -1,0 +1,37 @@
+/*browser specify*/
+
+/* for fill text with image(webkit only)*/
+.imageBackground{
+	background: url("./image/background.jpg");
+	background /clip裁剪/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*media*/
+@media screen and (max-width: 900px) {
+    /*some selectors*/
+}
+
+/*some ways to avoid horizontal scroll when using flex layout*/
+/*1 when you need adding padding for elements in flex layout,use max-width to make sure the sum of 
+their width would not overflow the screen, often [100-padding = max-width %](the minimum of max-width)*/
+.selector{
+    padding-left: 4%;
+    max-width: 96%;
+}
+
+/*flex width calculate, eg: the width of itemInFlex=flexWidth-(itemPadding+margin+border)=1000-30-30-30
+all padding/margin/border will be added in calculation*/
+/*overflow screen: when the width of any box of item, which equals the width of 
+padding+margin+border+content-self in flex > screen width*/
+.flex{
+	display: flex;
+	width: 1000px;
+}
+.itemInFlex{
+	width: 100%;
+	padding: 30px;
+	margin-left: 30px;
+	border-left: 30px;
+}

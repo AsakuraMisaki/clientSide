@@ -1,0 +1,160 @@
+/*global*/
+
+body {
+    background-color: #3f3f3f;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    font: 100% sans-serif;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #000;
+}
+
+a {
+    color: #ffe;
+    text-decoration: none;
+}
+
+div,
+input,
+form,
+img,
+embed,
+object {
+    width: 100%;
+    height: auto;
+}
+div {
+    margin: 2px 0px 2px 0px;
+}
+img {
+    border-radius: 8px;
+}
+input{
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #fff;
+}
+h1 {
+    font-weight: bold;
+}
+/*first appear, [Parent priority父级优先], no space among same selector*/
+
+body>div:not(.EnVJSInstance),
+#overview,
+#overview>div,
+.main>div,
+.main>div>.image,
+.EnVJSInstance>div{
+    display: flex;
+    align-items: center;
+}
+
+body>.header{
+    background: url("../res/image/home.jpg");
+    background-position: center;
+}
+
+.index {
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.index>a {
+    font-size: 48px;
+    font-weight: bold;
+}
+.index>hr{
+    margin-top: 12px;
+    background-color: #eee;
+}
+.index>h2{
+    color: #eee;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+#overview{
+    margin-left: 30%;
+    flex-direction: column;
+}
+#overview>.search{
+    width: 200%;
+    height: 200%;
+}
+#overview>.search>object{
+    
+}
+
+.main {
+    background-color: #eee;
+}
+.main>div {
+    flex-direction: column;
+}
+.main>div>h1{
+    color: #000;
+}
+.main>div>.image {
+    padding-left: 4%;
+    max-width: 96%;
+}
+.main>div>.image>.self-adapt {
+    width: 95%;
+    box-shadow: 5px 5px 10px #666;
+}
+.main>div>.image>img:nth-child(2n+1) {
+    width: 5%;
+}
+.main>div>.image>.pre {
+    transform: rotate(45deg);
+    align-self: flex-start;
+    margin-right: -5%;
+}
+.main>div>.image>.next {
+    transform: rotate(225deg);
+    align-self: flex-end;
+    margin-left: -5%;
+}
+
+.hiddenHR{
+    display: none;
+}
+
+.EnVJSInstance {
+    flex-direction: column;
+}
+.EnVJSInstance>.display{
+    width: 80%;
+    justify-content: space-between;
+}
+.EnVJSInstance>.header>div>h1{
+    color: #eee;
+}
+
+.exchange {
+    width: 2%;
+}
+
+.resizable{
+    border: 1px solid #ffe;
+    resize: both;
+    overflow: auto;
+}
+
+.copyright{
+    align-items: baseline;
+}
