@@ -4,56 +4,116 @@
 		"selected_items":
 		[
 			[
-				"ba",
-				"background-color\tproperty"
+				"prototy",
+				"prototype"
 			],
 			[
-				"font",
-				"font-size\tproperty"
+				"getP",
+				"getProperty"
 			],
 			[
-				"padd",
-				"padding\tproperty"
+				"para",
+				"parasitic"
 			],
 			[
-				"border",
-				"border-radius\tproperty"
+				"super",
+				"superType"
 			],
 			[
-				"font-",
-				"font-size\tproperty"
+				"proto",
+				"prototype"
 			],
 			[
-				"wor",
-				"word-spacing\tproperty"
+				"prot",
+				"prototype"
+			],
+			[
+				"sub",
+				"subType"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"consoe",
+				"console.log"
+			],
+			[
+				"const",
+				"constructor"
+			],
+			[
+				"Obj",
+				"Object"
+			],
+			[
+				"define",
+				"defineProperties\t( o: Object, props: any ): Object Object"
+			],
+			[
+				"asser",
+				"assertValue"
 			],
 			[
 				"co",
 				"color\tproperty"
 			],
 			[
-				"back",
-				"background-color\tproperty"
+				"moud",
+				"module"
 			],
 			[
-				"oc",
+				"orig",
+				"originalUrl"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"can",
+				"canvas\tTag"
+			],
+			[
+				"o",
 				"opacity\tproperty"
 			],
 			[
-				"op",
-				"opacity\tproperty"
-			],
-			[
-				"margin-",
+				"margin",
 				"margin-bottom\tproperty"
 			],
 			[
-				"mar",
-				"margin-top\tproperty"
+				"s",
+				"script\tTag"
+			],
+			[
+				"innerH",
+				"innerHeight\t.innerHeight()"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"fl",
+				"flatUIProIcons"
+			],
+			[
+				"border",
+				"border-left\tproperty"
 			],
 			[
 				"bor",
 				"border-width\tproperty"
+			],
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
+				"back",
+				"background-size\tproperty"
 			],
 			[
 				"align",
@@ -80,6 +140,10 @@
 				"max-width\tproperty"
 			],
 			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
 				"ovwe",
 				"overflow\tproperty"
 			],
@@ -96,16 +160,20 @@
 				"align-self\tproperty"
 			],
 			[
-				"box",
-				"box-shadow\tproperty"
-			],
-			[
 				"ov",
 				"overflow\tproperty"
 			],
 			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
 				"min-",
 				"min-width\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
 			],
 			[
 				"fon",
@@ -212,10 +280,6 @@
 				"multerStorage"
 			],
 			[
-				"para",
-				"req.params[.name]"
-			],
-			[
 				"url",
 				"req.baseUrl"
 			],
@@ -292,10 +356,6 @@
 				"_filePath"
 			],
 			[
-				"s",
-				"SoundPlayer"
-			],
-			[
 				"top",
 				"topAction"
 			],
@@ -315,52 +375,53 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5148,
+				"buffer_size": 1999,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/TestCase.css",
+			"file": "note/jsNote.js",
 			"settings":
 			{
-				"buffer_size": 2207,
+				"buffer_size": 8670,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/mediaQuery.css",
+			"file": "dist/js/vueTest.js",
 			"settings":
 			{
-				"buffer_size": 393,
+				"buffer_size": 966,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/vueTest.js",
+			"file": "dist/js/JSTest.js",
 			"settings":
 			{
-				"buffer_size": 686,
+				"buffer_size": 883,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/JSTest.js",
+			"file": "dist/css/main.css",
 			"settings":
 			{
-				"buffer_size": 850,
+				"buffer_size": 799,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "nodeServer.js",
+			"file": "dist/js/canvas.js",
 			"settings":
 			{
-				"buffer_size": 305,
+				"buffer_size": 323,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -477,6 +538,10 @@
 		"selected_items":
 		[
 			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
 				"ins",
 				"Package Control: Install Package"
 			],
@@ -565,17 +630,41 @@
 	},
 	"expanded_folders":
 	[
-		"/D/GitHub/Projects/clientSide/testCase1",
-		"/D/GitHub/Projects/clientSide/testCase1/css",
-		"/D/GitHub/Projects/clientSide/testCase1/note"
+		"/D/GitHub/Projects/clientSide/EnV.js",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/css",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/js",
+		"/D/GitHub/Projects/clientSide/EnV.js/note"
 	],
 	"file_history":
 	[
-		"/D/GitHub/Projects/clientSide/testCase1/note/CssNote.css",
-		"/D/GitHub/Projects/clientSide/testCase1/js/qunitTest.js",
-		"/D/GitHub/Projects/clientSide/testCase1/nodeServer.js",
+		"/D/GitHub/Projects/clientSide/EnV.js/note/jsNote.js",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/(JS)QA.js",
+		"/D/GitHub/Projects/clientSide/EnV.js/nodeServer.js",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/jshint/jshintrc",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/css/mediaQuery.css",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/js/JSTest.js",
+		"/D/GitHub/Projects/java/JavaGradleAndroid/androidAPI.md",
+		"/D/GitHub/Projects/Android/MyApplication2/app/src/main/java/com/misaki/myapplication/MainActivity.java",
+		"/D/GitHub/Projects/java/JavaGradleAndroid/androidStudio&gradle.md",
+		"/D/GitHub/Projects/Android/MyApplication2/app/build/outputs/apk/release/output.json",
+		"/D/GitHub/Projects/clientSide/EnV.js/note/DOMjs.md",
+		"/D/GitHub/Web/Flat-UI-master/dist/css/flat-ui.css",
+		"/D/Program Files/nodeJS/node_modules/g/jshint",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/Nodejs/Nodejs.sublime-build",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/Main.js",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/globalDefination.js",
+		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/mysql.js",
+		"/D/GitHub/Projects/clientSide/EnV.js/note/nodejsMysql.md",
+		"/D/Program Files/nodeJS/node_modules/npm/npmrc",
+		"/D/GitHub/Web/Flat-UI-master/dist/css/flat-ui.min.css",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/js/qunitTest.js",
+		"/D/GitHub/Projects/clientSide/testCase1/js/qunitTest.js",
+		"/D/GitHub/Projects/clientSide/testCase1/note/CssNote.css",
+		"/D/GitHub/Projects/clientSide/testCase1/nodeServer.js",
 		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/search.svg",
 		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
 		"/D/GitHub/Projects/clientSide/testCase1/Note/JS+C_SNote.md",
@@ -622,8 +711,6 @@
 		"/D/GitHub/Projects/clientSide/testCase.html",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/req.js",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/mysqlTest.js",
-		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/mysql.js",
-		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/(JS)QA.js",
 		"/D/GitHub/Projects/java/HelloJava/DataStructure/Stack.java",
 		"/D/GitHub/Projects/java/HelloJava/SortAndFind/Find.java",
 		"/D/GitHub/Projects/java/HelloJava/SortAndFind/Sort.java",
@@ -678,27 +765,7 @@
 		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/mysqltest.js",
 		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/urlReferences.md",
 		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/node_modules/multer/README.md",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/req.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/globalDefination.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/gstes/url文档.md",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/res0.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/test.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/testjs/mysqltest.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/goods/pic/3playFun/config.json",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/main.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/goods/QATest.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/node_modules/moment/README.md",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test_pull_push_more/readme.md",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/node_modules/mysql/Readme.md",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/gstes/front/pages/sell/sell.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/gstes/front/pages/goodpage/goodpage.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/gstes/front/app.json",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test_pull_push_more/reade.md",
-		"/D/Program Files (x86)/GitHub/Projects/CmdCommand/RepositoryCmdUpdateTest/README.md",
-		"/D/Program Files (x86)/GitHub/Projects/WeChat-nodejs/client/config.js",
-		"/D/Program Files (x86)/GitHub/Projects/WeChat-nodejs/client/vendor/wafer2-client-sdk/index.js",
-		"/D/Program Files (x86)/GitHub/Projects/WeChat-nodejs/server/app.js",
-		"/D/Program Files (x86)/GitHub/Projects/WeChat-nodejs/project.config.json"
+		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/req.js"
 	],
 	"find":
 	{
@@ -716,14 +783,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"true",
-			"arrow.png",
-			"margin",
-			"left",
-			"\");\n",
-			"Z",
-			";\n",
-			"background"
+			"outer",
+			"./res/image/"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -731,11 +792,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Outer",
+			"./dist/res/image/"
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": false
 	},
 	"groups":
@@ -750,28 +813,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5148,
+						"buffer_size": 1999,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1770,
-								1770
+								1051,
+								1051
 							]
 						],
 						"settings":
 						{
 							"SL.13.region_keys":
 							[
-								"SL.jshint.Highlights.|0bbdd784b37ec3767f2e4ce556d486937a898c97700b6aa77fa04f362c09d387|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Highlights.|8e9762b91665f425aa09125d381a409fbb1ea0ff86b0a8015addf8cd077fa3ab|region.redish markup.error.sublime_linter|32",
-								"SL.jshint.Gutter.|region.redish markup.error.sublime_linter|dot",
-								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|7b4c9bebb1ddffd0c6e5ba88eef2f197c307ef1e9ceb0121015f72617bd4ce36|region.redish markup.error.sublime_linter|32"
 							],
-							"SL.15.region_keys":
+							"SL.22.region_keys":
 							[
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
@@ -779,7 +837,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 363.0,
+						"translation.y": 387.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -787,36 +845,33 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/TestCase.css",
+					"file": "note/jsNote.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2207,
+						"buffer_size": 8670,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1089,
-								1089
+								7020,
+								7020
 							]
 						],
 						"settings":
 						{
-							"SL.14.region_keys":
+							"SL.21.region_keys":
 							[
+								"sublime_linter.protected_regions"
 							],
-							"SL.16.region_keys":
-							[
-							],
-							"color_scheme": "Packages/User/ColorHighlighter/themes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1242.0,
+						"translation.y": 3956.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -824,26 +879,63 @@
 				},
 				{
 					"buffer": 2,
-					"file": "css/mediaQuery.css",
+					"file": "dist/js/vueTest.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 393,
+						"buffer_size": 966,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								48,
-								48
+								302,
+								302
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/ColorHighlighter/themes/Material-Theme-Darker.tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"SL.14.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"SL.15.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|cd74e011abb2c27c67afea1364d0539e76c1d2466abc71630ce07e05be6ab004|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|72bf55e88af5926f47eae622b631eb959e691de33721002ea8cb6442c3b521d7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|2c7383111c81d1928cdc4639e486587e545017baf6e0a13f410436ff24a74dcc|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.18.region_keys":
+							[
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|7b6db91ed1d3f1f804ca2a79482185f0f7d8d3cecf2b33b8fc516744975d5261|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|c330596b508ef7ad6823e1bf7fd15648c573c9d434a85a5221c8c2eb6ce72be4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|6103191083880c2f11ee41a1364f8e7f3ce381115cb8f7c9693ceccf95b49dad|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|b3a42ddf6929def94ce086dc63322fff96fd6b3e80040832fe10117822fd4b71|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|1c56a9d0cc4e0f6efdb89e191b6fc0e064d63e1fafe74d4262185cfb322faa73|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions"
+							],
+							"SL.21.region_keys":
+							[
+								"SL.jshint.Highlights.|29e5728cef3d99aeda3c822e95d363fa2749547f96dc3db79326fdd9eeb6d20c|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|4f4cd2e7a62a76468b5d3c1115112a70e03bf9779152040f114e8e4f1afa7773|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|83b392696bde9c57fcb93f5e7f5f43b9531a8b602dc84c63bfdce7a21628ac8b|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.32.region_keys":
+							[
+								"SL.jshint.Highlights.|c671595d017e2a4d124520429015356ba1ad90a714983ff1967c0f77cbf8a8ef|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|6a0e66323a0a1ce80b8f6f770a83fc8011facb5804486d97730465e72661bddd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|f80dc8d311417b91bc95816de643d74ed873b6f246b7c1d43414b61c07235cf1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|616f3c066ab9021de860202225fb46e5734eeedcd1694d157b1f71db64fcb756|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -856,112 +948,40 @@
 				},
 				{
 					"buffer": 3,
-					"file": "js/vueTest.js",
+					"file": "dist/js/JSTest.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 686,
+						"buffer_size": 883,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								192
+								594,
+								594
 							]
 						],
 						"settings":
 						{
 							"SL.15.region_keys":
 							[
-								"SL.jshint.Highlights.|4f4cd2e7a62a76468b5d3c1115112a70e03bf9779152040f114e8e4f1afa7773|region.yellowish markup.warning.sublime_linter|32",
-								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|29e5728cef3d99aeda3c822e95d363fa2749547f96dc3db79326fdd9eeb6d20c|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.jshint.Highlights.|83b392696bde9c57fcb93f5e7f5f43b9531a8b602dc84c63bfdce7a21628ac8b|region.yellowish markup.warning.sublime_linter|32"
-							],
-							"SL.16.region_keys":
-							[
-								"SL.jshint.Highlights.|83b392696bde9c57fcb93f5e7f5f43b9531a8b602dc84c63bfdce7a21628ac8b|region.yellowish markup.warning.sublime_linter|32",
-								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|29e5728cef3d99aeda3c822e95d363fa2749547f96dc3db79326fdd9eeb6d20c|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|4f4cd2e7a62a76468b5d3c1115112a70e03bf9779152040f114e8e4f1afa7773|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
-							],
-							"SL.17.region_keys":
-							[
-								"SL.jshint.Highlights.|83b392696bde9c57fcb93f5e7f5f43b9531a8b602dc84c63bfdce7a21628ac8b|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|4f4cd2e7a62a76468b5d3c1115112a70e03bf9779152040f114e8e4f1afa7773|region.yellowish markup.warning.sublime_linter|32",
 								"sublime_linter.protected_regions",
 								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.jshint.Highlights.|29e5728cef3d99aeda3c822e95d363fa2749547f96dc3db79326fdd9eeb6d20c|region.yellowish markup.warning.sublime_linter|32"
+								"SL.jshint.Highlights.|44ed77822530274ea583cf2c8263787a6744d5f4cf05121b6d2cdcf15b45d6fd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|a906664da86fb5d89041e5c2ac2161e6eb05a0d04cc3e2e7890cfad6def7fc05|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|33c28e5a42b98753f6ae3b502d26043471d2d6c670befe58d6c27976707e4ec3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|63fb21ad12d5788cd82c678a33ee910a10c5c5be0b68b6a7229f2bae394f6b39|region.yellowish markup.warning.sublime_linter|32"
 							],
-							"SL.21.region_keys":
+							"SL.20.region_keys":
 							[
-								"SL.jshint.Highlights.|83b392696bde9c57fcb93f5e7f5f43b9531a8b602dc84c63bfdce7a21628ac8b|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|4f4cd2e7a62a76468b5d3c1115112a70e03bf9779152040f114e8e4f1afa7773|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.jshint.Highlights.|b8b06e664a531f00f5dec0f5579dd62d4d545041cf3c5b5b909d48c5317de401|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|29e5728cef3d99aeda3c822e95d363fa2749547f96dc3db79326fdd9eeb6d20c|region.yellowish markup.warning.sublime_linter|32",
-								"sublime_linter.protected_regions"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/JSTest.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 850,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								476,
-								476
-							]
-						],
-						"settings":
-						{
-							"SL.16.region_keys":
-							[
+								"SL.jshint.Highlights.|a906664da86fb5d89041e5c2ac2161e6eb05a0d04cc3e2e7890cfad6def7fc05|region.yellowish markup.warning.sublime_linter|32",
 								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|43d663f610595c8efec7aa9706331e407d201c046a4d7b35e5ecc02add1999da|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|7a307c60629bca9b9502117f7d832e5ef5836a265430f1a396bdcbdcf9baf490|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|33c28e5a42b98753f6ae3b502d26043471d2d6c670befe58d6c27976707e4ec3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|44ed77822530274ea583cf2c8263787a6744d5f4cf05121b6d2cdcf15b45d6fd|region.yellowish markup.warning.sublime_linter|32",
 								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.jshint.Highlights.|1723fded4380ad22d284424b3954e131f96914fc1d2a7eabff209356ba3617d2|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|25fa59ca7b38f04f726fc850338d337733b41c2f44d2b96f2823cab2e41bce3d|region.yellowish markup.warning.sublime_linter|32"
-							],
-							"SL.17.region_keys":
-							[
-								"SL.jshint.Highlights.|7a307c60629bca9b9502117f7d832e5ef5836a265430f1a396bdcbdcf9baf490|region.yellowish markup.warning.sublime_linter|32",
-								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|25fa59ca7b38f04f726fc850338d337733b41c2f44d2b96f2823cab2e41bce3d|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|1723fded4380ad22d284424b3954e131f96914fc1d2a7eabff209356ba3617d2|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|43d663f610595c8efec7aa9706331e407d201c046a4d7b35e5ecc02add1999da|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
-							],
-							"SL.18.region_keys":
-							[
-								"SL.jshint.Highlights.|43d663f610595c8efec7aa9706331e407d201c046a4d7b35e5ecc02add1999da|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|25fa59ca7b38f04f726fc850338d337733b41c2f44d2b96f2823cab2e41bce3d|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|1723fded4380ad22d284424b3954e131f96914fc1d2a7eabff209356ba3617d2|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|7a307c60629bca9b9502117f7d832e5ef5836a265430f1a396bdcbdcf9baf490|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"sublime_linter.protected_regions"
+								"SL.jshint.Highlights.|63fb21ad12d5788cd82c678a33ee910a10c5c5be0b68b6a7229f2bae394f6b39|region.yellowish markup.warning.sublime_linter|32"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
@@ -973,30 +993,118 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "nodeServer.js",
+					"buffer": 4,
+					"file": "dist/css/main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 305,
+						"buffer_size": 799,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								65,
-								65
+								146,
+								146
 							]
 						],
 						"settings":
 						{
-							"SL.18.region_keys":
+							"SL.14.region_keys":
 							[
+							],
+							"SL.15.region_keys":
+							[
+							],
+							"color_scheme": "Packages/User/ColorHighlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dist/js/canvas.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+								"SL.jshint.Highlights.|14b5489c441f8164424406ec0b1933705fc265dff40ef7cce73a282afb08ec2e|region.redish markup.error.sublime_linter|32",
+								"SL.jshint.Highlights.|1a99de01e6544e3c81f2cad99c6179eb25861d1976e70b38e9b4e7e5d1d05bc5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|00332c5e8b599e8364fbd38e44207f8795f892c6d7671076eda12bf7b9935c09|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|ab756a4aa6cf12681ae6c2f4fb218abf4f527cd0f87de6b717b1049db59a4821|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|fc0ca500b116309386faf336943aafe41ac48273349c5261e0a34719b5f232d9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.jshint.Highlights.|49c40ceaaa8379a1159b3cc158ea3bcd0964bdd195e5b3e223b7dfb30462cc9e|region.redish markup.error.sublime_linter|32",
+								"SL.jshint.Highlights.|f4733c75cb4106a3c4a68a27a4a2a7e1b5487922ac6da1d2ca73900d39e2c150|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|007bdebcfd8d0347298e8a978be80fccead299076f8851c2520fe05984b1ee07|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"SL.16.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|cbbca6fb6e22ea448eff1d8ceca02c6c62a017a310fce3272e03f67182f3298b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|535c1ea9930a28327b04b6a31b5142ab647fd2b61a0d863e1f8b66ccb791577f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|5a9352c38683c4733d28d9df0ec95dc8041117455671b87aa15e2ab48334df01|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.17.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|535c1ea9930a28327b04b6a31b5142ab647fd2b61a0d863e1f8b66ccb791577f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|5a9352c38683c4733d28d9df0ec95dc8041117455671b87aa15e2ab48334df01|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|cbbca6fb6e22ea448eff1d8ceca02c6c62a017a310fce3272e03f67182f3298b|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.19.region_keys":
+							[
+								"SL.jshint.Highlights.|e5320e411750e5ad20ac3f91ab4afc932744cea01175605c86aad8f221996bc7|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|934a4ca3f914718f5747b7bcad23f5b68e32b72a0fab4874562953e8a63d1f26|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|89e18ff18d0ae58645577f8968495122761a4fc61c053ace10e689e1b096c92e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
 							],
 							"SL.22.region_keys":
 							[
+								"SL.jshint.Highlights.|9d183ab1a4cd1876cc179196a071fb2f8c6fc05ef9cb295f4d4abeb625ef5d38|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|81d1006c53d844853ea5d3fe13502092656f00b861db23c54f8071317a2ea803|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|934a4ca3f914718f5747b7bcad23f5b68e32b72a0fab4874562953e8a63d1f26|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
 							],
+							"SL.33.region_keys":
+							[
+								"SL.jshint.Highlights.|3daf0ba6a8a9362250f48fc7394ef95e500172c66c6742cfb9670bd04c744bff|region.redish markup.error.sublime_linter|32",
+								"SL.jshint.Highlights.|5a9352c38683c4733d28d9df0ec95dc8041117455671b87aa15e2ab48334df01|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|535c1ea9930a28327b04b6a31b5142ab647fd2b61a0d863e1f8b66ccb791577f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.jshint.Highlights.|cbbca6fb6e22ea448eff1d8ceca02c6c62a017a310fce3272e03f67182f3298b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions"
+							],
+							"open_with_edit": true,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -1046,7 +1154,7 @@
 	},
 	"output.exec":
 	{
-		"height": 147.0
+		"height": 110.0
 	},
 	"output.find_results":
 	{
@@ -1061,10 +1169,10 @@
 		"height": 126.0
 	},
 	"pinned_build_system": "",
-	"project": "testCase1.sublime-project",
+	"project": "EnVJS.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":

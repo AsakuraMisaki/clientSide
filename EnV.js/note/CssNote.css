@@ -35,3 +35,19 @@ padding+margin+border+content-self in flex > screen width*/
 	margin-left: 30px;
 	border-left: 30px;
 }
+
+/*font-face(css3), define your own font with local resource(src)*/
+@font-face{
+	/*user-defined name*/
+    font-family: "iconFont";
+    src: url(./res/font/glyphicons/flat-ui-pro-icons-regular.ttf), 
+    url(./res/font/glyphicons/flat-ui-pro-icons-regular.woff),
+    url(./res/font/glyphicons/flat-ui-pro-icons-regular.eot);
+}
+
+#t::after{
+	/*reference*/
+    font-family: "iconFont";
+    /*use unicode to import required and special font/icon*/
+    content: "\e626";
+}

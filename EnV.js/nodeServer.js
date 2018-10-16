@@ -13,4 +13,14 @@ server.get("/test", function(req, res){
 	res.send("HelloWorld");
 });
 
+server.post("/test", function(req, res){
+	console.log(req.originalUrl);
+	res.send("HelloWorld");
+});
+
+server.get("/myApk", function(req, res){
+	console.log(req.originalUrl);
+	res.sendFile("D:\\GitHub\\Projects\\Android\\" + req.query.name + "\\app\\release\\app-release.apk");
+})
+
 server.listen(80);

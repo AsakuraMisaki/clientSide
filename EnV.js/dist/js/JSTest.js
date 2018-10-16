@@ -1,12 +1,11 @@
  //additional functions 
 
 //common infoPrint function(div>p)
-function infoPrint(value, color){
-	var colorRef = color||"lightYellow";
-	//value = (typeof(value) === String)? value : value.toString();
+function infoPrint(value, color="#000", message="InfoPrint: "){
+	//value = (typeof(value) === String)? value : value.toString()
     var p = document.createElement("p");
-    p.appendChild(document.createTextNode(value));
-    p.style.cssText = "color: " + colorRef + ";";
+    p.appendChild(document.createTextNode(message + value));
+    p.style.cssText = "color: " + color + ";";
     document.getElementsByTagName("div")[0].appendChild(p);
 }
 
@@ -24,4 +23,8 @@ function assertValue(actual, expected){
 		infoPrint(err.stack, "red");
 	}
 }
+
+export{infoPrint, assertValue};
+
+
 

@@ -1,0 +1,64 @@
+/*global*/
+
+/*color list*/
+    {
+    #ff3950 #deff00 #1e575e #18f1ec #fff #4fe5f7;
+}
+
+#jsTest{
+    font-size: 20px;
+}
+
+html {
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: "flatUIProIcons";
+    src: url("../res/font/glyphicons/flat-ui-pro-icons-regular.ttf");
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.title-large {
+    font-size: 3rem;
+}
+.title-medium {
+    font-size: 2.5rem;
+}
+.titel-little {
+    font-size: 1.5rem;
+}
+
+[class*="flex-"] {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+[class*="hasBorder"]{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+[class*="fui-"] {
+    font-family: "flatUIProIcons";
+}
+
+/*first appear*/
+#canvas-global {
+    position: fixed;
+    z-index: -1;
+}
+
+#homeIcon{
+   opacity: 0.6;
+}
