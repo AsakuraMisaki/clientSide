@@ -12,7 +12,6 @@
 //==> (right)host/static.file==> (false)host/staicFilePath/static.file==> because the staicFilePath route will be 
 //appended to global staticFile list, when staticFile is visited, server will find and send the file from the list
 //6.  ! never use insert into tbls (cols) values(), instead use insert into tbls set cols=values, cols= values
-
 //function return
 var t0 = function() {
     var b = function() { return 1; };
@@ -122,12 +121,11 @@ var t8 = function() {
 //t8()
 
 //prototype
-var Proto = function() {
-    this.diff = ["d"];
-}
-Proto.prototype.only = ["o"];
-
 var t9 = function() {
+    var Proto = function() {
+        this.diff = ["d"];
+    }
+    Proto.prototype.only = ["o"];
     var p = new Proto();
     var p1 = new Proto();
     p.diff.push(5); //reflect in special object
@@ -269,3 +267,71 @@ var parasitic = function() {
 }
 //parasitic();
 //(!) generally inheritance, adopt construtor mix prototype
+
+//error
+var errorTest = function(err) {
+    try {
+        throw new ReferenceError(err);
+    } catch (err) {
+        // \u0029 = )
+        console.log(err.stack.match(/[ -z]+\n[ -z]+\u0029/)[0]);
+    }
+}
+//errorTest("new refError");
+//console.log("continue");
+
+//prototype function and command function(anonymous or named) in closure
+var protoFnAndCommandFn = function() {
+    var commandFn = function(time) {
+        console.log(time);
+        if (time === 1) {
+            return;
+        }
+        time++;
+        (function() {
+            commandFn(time);
+        })();
+    }
+    console.log("command");
+    commandFn(0);
+
+    var Proto = function(name) { this.protoFn(0); };
+    var AnotherProto = function() {};
+    AnotherProto.prototype.protoFn = function(op, fn) {
+        fn();
+    }
+    Proto.prototype.protoFn = function() {
+        //this is new Proto();
+        var that = this;
+        //each function has its own scope and closure since defination
+        //defination has no limit in its position, as argument is ok
+        new AnotherProto().protoFn("op", function() {
+            console.log(that.protoFn);
+        })
+    }
+    console.log("proto");
+    new Proto("proto");
+}
+//protoFnAndCommandFn();
+
+//regexp
+var regexp = function() {
+    console.log("example: values in object[index] stringify");
+    console.log(
+        //for mysql storage json data
+        (function objectToString(o) {
+        var str = ""
+        for (propertyName in o) {
+            if(typeof o[propertyName] === "object"){
+                o[propertyName] = JSON.stringify(o[propertyName]);
+            }
+            str += ("\"" + o[propertyName] + "\",");
+        }
+        return str.match(/".+"/)[0];
+    })({ 
+        t: "sss", 
+        t1: 5, 
+        t2: {array: ["www"]}
+    }))
+}
+//regexp();

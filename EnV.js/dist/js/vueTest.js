@@ -1,46 +1,78 @@
 import renderCanvas from "./canvas.js";
 import { infoPrint, assertValue } from "./JSTest.js";
+//import myComponent from '../vue/myComponent.vue';
 // renderCanvas("canvas-global");
-
-var Outer = function() {
-
-};
 
 try {
 
-    var globalValue = "globalValue";
-
-    var g;
-    var Proto = function(){
-        this.diff = [6];
-    }
-    Proto.prototype.only = [6];
-
-    var p = new Proto();
-    var p1 = new Proto();
-    p.diff.push(5);
-    p.only.push(8);
-    var close = function(s) {
-        var test = 1;
-        var fn = function(n) {
-            var fff = 5
-            var fn1 = function(n){
-                var ffff = 6
-                return function(n){
-                    return fff+ "/" + test + "/" + ffff;
+    var app = new Vue({
+        el: "#vue-mes",
+        data: {
+            mes: "HelloWorld",
+            tip: "the tip info",
+            flag: true
+        },
+        methods: {
+            toogleTip: function() {
+                if (this.flag) {
+                    let mes = this.mes;
+                    this.mes = this.tip;
+                    this.tip = mes;
+                    this.flag = false;
+                }
+                else {
+                    let mes = this.mes;
+                    this.mes = this.tip;
+                    this.tip = mes;
+                    this.flag = true;
                 }
             }
-            return fn1;
-        };
-        return fn;
-    };
-    var toolate = "toolate";
+        }
+    });
 
-    var c = close("s");
-    var c1 = new c("n");
-    var c2 = new c1("n");
-    //infoPrint(c2("n"));
-    var ob = new Object({});
+    var app1 = new Vue({
+        el: "#vue-for",
+        data: {
+            arr: [
+                "HelloWorld",
+                "HelloVue",
+                "Hellojs"
+            ]
+        },
+    });
+
+    var app2 = new Vue({
+        el: "#vue-if",
+        data: {
+            see: true
+        },
+    });
+
+    var app3 = new Vue({
+        el: "#vue-model",
+        data: {
+            mes: "input to change"
+        },
+    });
+
+    Vue.component("todo-item",{
+        props: ["todo"],
+        template: `
+        <p>{{todo.text}} IN
+            <span>{{todo}}</span>
+        </p>
+        `
+    });
+    var app4 = new Vue({
+        el: "#vue-component",
+        data: {
+            list: [
+                {id : 0, text: "item.id=0"},
+                {id : 1, text: "item.id=1"},
+                {id : 2, text: "item.id=2"}
+            ]
+        }
+    });
 
 } catch (err) {
     infoPrint(err.stack, "red");

@@ -11,11 +11,11 @@
     <!-- <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
     <link href="./dist/css/main.css" rel="stylesheet" type="text/css">
     <link href="./dist/css/mediaQuery.css" rel="stylesheet" type="text/css">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
     <!-- <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
-    <script src="./dist/js/JSTest.js" type="module"></script>
-    <script src="./dist/js/vueTest.js" type="module" async></script>
+    <script src="./dist/js/JSTest.js" type="module" defer></script>
+    <script src="./dist/js/vueTest.js" type="module" defer></script>
     <script src="./dist/js/canvas.js" type="module" defer></script>
     <!-- qunit -->
     <!-- <link href="../qunit/qunit.css" rel="stylesheet" type="text/css"> -->
@@ -26,20 +26,30 @@
 </head>
 
 <body>
-    <div id="jsTest"></div>
-    <!-- <canvas id="canvas-global"></canvas>
-    <div id="header" class="flex-row">
-        <header class="flex-column">
-            <canvas id="homeIcon"></canvas>
-            <a class="title-large" href="./">EnV.js</a>
-            <h1 class="mainBody-large">Enjoy Art Beauty of JavaScript</h1>
-        </header>
-    </div> -->
-    
-    <!-- qunit div -->
-    <!-- <div id="qunit"></div>
-    <div id="qunit-fixture"></div> -->
-
+    <div id="display">
+        <h1>single item render(listen:click)</h1>
+        <div id="vue-mes">
+            <span v-bind:title="tip" v-on:click="toogleTip">{{this.mes}}</span>
+        </div>
+        <h1>v-for render</h1>
+        <div id="vue-for">
+            <span v-for="v in arr">{{v}}</span>
+        </div>
+        <h1>v-if render</h1>
+        <div id="vue-if">
+            <span v-if="see">{{see}}</span>
+        </div>
+        <h1>v-model render</h1>
+        <div id="vue-model">
+            <p>{{this.mes}}</p>
+            <input type="text" name="vueTest" v-model="mes">
+        </div>
+        <h1>v-component render</h1>
+        <div id="vue-component">
+            <todo-item v-for="item in list" v-bind:todo="item" v-bind:key="item.id">
+            </todo-item>
+        </div>
+    </div>
 </body>
 
 </html>

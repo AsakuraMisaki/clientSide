@@ -5,10 +5,6 @@
     #ff3950 #deff00 #1e575e #18f1ec #fff #4fe5f7;
 }
 
-#jsTest{
-    font-size: 20px;
-}
-
 html {
     font-size: 10px;
 }
@@ -18,47 +14,62 @@ html {
     src: url("../res/font/glyphicons/flat-ui-pro-icons-regular.ttf");
 }
 
-body {
-    margin: 0px;
-    font-family: sans-serif;
+div{
+    box-sizing: border-box;
     width: 100%;
 }
 
-.title-large {
-    font-size: 3rem;
-}
-.title-medium {
-    font-size: 2.5rem;
-}
-.titel-little {
-    font-size: 1.5rem;
-}
-
-[class*="flex-"] {
-    display: flex;
-}
-.flex-column {
-    flex-direction: column;
-}
-
-[class*="hasBorder"]{
+body {
     box-sizing: border-box;
+    margin:0px;
+    font-family: sans-serif;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+#display{
+    width:45%;
 }
 
-a {
-    text-decoration: none;
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 10px;
+    border: 0px;
+    background-color: #3f3f3f;
+    border-right: 5px solid #eee;
+    color: #fff;
 }
 
-[class*="fui-"] {
-    font-family: "flatUIProIcons";
+hr {
+    margin-bottom: 15px;
 }
 
-/*first appear*/
-#canvas-global {
-    position: fixed;
-    z-index: -1;
+[id*="vue-"],
+[class*="vue-"] {
+    margin-top: 15px;
+    color: #fff;
+    padding: 5px 15px 5px 10px;
+    font-size: 2rem;
+    border-left: 10px solid #3f3f3f;
+    background-color: #aa6;
 }
 
-#homeIcon{
-   opacity: 0.6;
+span{
+    padding: 5px;
+}
+
+ul{
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+
+li:not(:nth-last-child(1)){
+    padding: 5px 0px 0px 0px;
 }

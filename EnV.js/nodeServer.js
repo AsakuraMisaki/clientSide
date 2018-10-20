@@ -8,19 +8,17 @@ var path = require("path");
 var server = express();
 server.use(express.static("."));
 
-server.get("/test", function(req, res){
-	console.log(req.originalUrl);
-	res.send("HelloWorld");
-});
 
-server.post("/test", function(req, res){
+
+server.get("/test", function(req, res, next){
 	console.log(req.originalUrl);
-	res.send("HelloWorld");
+	next();
 });
 
 server.get("/myApk", function(req, res){
 	console.log(req.originalUrl);
 	res.sendFile("D:\\GitHub\\Projects\\Android\\" + req.query.name + "\\app\\release\\app-release.apk");
-})
+});
+
 
 server.listen(80);
