@@ -58,7 +58,7 @@ try {
     Vue.component("todo-item",{
         props: ["todo"],
         template: `
-        <p>{{todo.text}} IN
+        <p>{{todo.text}} I
             <span>{{todo}}</span>
         </p>
         `
