@@ -45,9 +45,8 @@ next();
 
 ### object: { template: \`str\`}
 
-> \` is added in es6, you can use it in [String Template字符串模板] situation.
-> eg.\`user ${user.name} is denied to do ${action} operation. \` 
-> `\`<p>{{todo.text}} IN
+> \` is added in es6, you can use it in [String Template字符串模板] situation.<br>
+> eg.\`user ${user.name} is denied to do ${action} operation. \` <br>
+> `<p>{{todo.text}} IN
   	<span>{{todo}}</span>
-  </p>
-\`(newlines)`
+  </p>`
