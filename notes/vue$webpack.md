@@ -21,7 +21,7 @@
 
 #### vue init (template_name)(project_name)
 
-* the convenient method to create a particular with available demo
+* the convenient method to create a particular project with available demo
 
 > eg. to create a webpack project `npm install -g @vue/cli-init
 #vue init now works exactly the same as vue-cli@2.x
@@ -37,7 +37,7 @@ vue init webpack my-project`
 
 * It is not recommended to `npm install -g webpack`
 
-> some unexpected errors will happen with using global webpack command to build a particular project
+> some unexpected errors will happen with using global webpack command to build a particular project<br>
 *(!) the errors is updating*
 
 * `module.exports = SET:object`
