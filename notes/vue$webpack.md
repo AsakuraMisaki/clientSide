@@ -21,7 +21,7 @@
 
 #### the rendered dom structure
 
-> `.../<head/>/<srcipt src="{path}/built.js"/><style>selector{...}</style>/</head/>...` the rendered dom head structure may like the left, the css style will be writed in <style/> scope, and the complied js will be imported with script src attr 
+> `...<head/><srcipt src="{path}/built.js"/><style>selector{...}</style></head>...` the rendered dom head structure may like the left, the css style will be writed in <style/> scope, and the complied js will be imported with script src attr 
 
 #### vue init (template_name)(project_name)
 
