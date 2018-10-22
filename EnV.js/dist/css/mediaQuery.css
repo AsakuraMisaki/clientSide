@@ -1,26 +1,11 @@
 /*media-adapt*/
 @media screen and (max-width: 960px) {
 
-    .cSign{
-        display: none;
+    #display{
+        width: 100%;
     }
 
-    .main {
-        flex-direction: column;
-    }
-    .main>div>img {
-        width: 80%;
-    }
-
-    .hiddenHR {
-        display: block;
-        border-radius: 100px;
-        width: 88%;
-        height: 1px;
-        background-color: #3f3f3f;
-    }
-
-    .resizable{
-        resize: none;
+    html{
+    	font-size: 7px;
     }
 }

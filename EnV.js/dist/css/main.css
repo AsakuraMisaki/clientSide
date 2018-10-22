@@ -14,6 +14,11 @@ html {
     src: url("../res/font/glyphicons/flat-ui-pro-icons-regular.ttf");
 }
 
+p{
+    margin: 5px 0px 0px 0px;
+    padding-left: 5px;
+}
+
 div{
     box-sizing: border-box;
     width: 100%;
@@ -36,7 +41,8 @@ h1 {
     margin-bottom: 10px;
 }
 input{
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     width: 80%;
     padding: 10px;
     border: 0px;
@@ -56,11 +62,17 @@ hr {
     padding: 5px 15px 5px 10px;
     font-size: 2rem;
     border-left: 10px solid #3f3f3f;
-    background-color: #aa6;
+    background-color: #e94;
+}
+.bg-blue{
+    background-color: #49f;
+}
+.cl-black{
+    color: #000;
 }
 
 span{
-    padding: 5px;
+    padding: 5px 5px 0px 5px;
 }
 
 ul{

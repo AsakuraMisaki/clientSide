@@ -20,5 +20,10 @@ server.get("/myApk", function(req, res){
 	res.sendFile("D:\\GitHub\\Projects\\Android\\" + req.query.name + "\\app\\release\\app-release.apk");
 });
 
+server.get("/anime", function(req, res){
+	console.log(req.originalUrl);
+	res.sendFile("D:\\About Anime\\video\\kono\\" + req.query.name);
+});
+
 
 server.listen(80);

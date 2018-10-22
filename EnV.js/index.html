@@ -10,7 +10,7 @@
     <link href="./dist/res/image/home.png" size="32x32" rel="icon" type="image/png">
     <!-- <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
     <link href="./dist/css/main.css" rel="stylesheet" type="text/css">
-    <link href="./dist/css/mediaQuery.css" rel="stylesheet" type="text/css">
+    <link href="./dist/css/mediaQuery.css" media="screen and (max-width:960px)"  rel="stylesheet" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
     <!-- <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
@@ -26,10 +26,13 @@
 </head>
 
 <body>
+    <div id="infoPrint"></div>
     <div id="display">
         <h1>single item render(listen:click)</h1>
-        <div id="vue-mes">
-            <span v-bind:title="tip" v-on:click="toogleTip">{{this.mes}}</span>
+        <div id="vue-mes" v-on:click="toogleTip">
+            <span v-bind:title="tip" >original value: "{{this.mes + "(String)"}}"</span>
+            <p>computed value: "{{this.reversedMes}}"</p>
+            <p>dependent data: {{this.date}}</p>
         </div>
         <h1>v-for render</h1>
         <div id="vue-for">
@@ -40,12 +43,12 @@
             <span v-if="see">{{see}}</span>
         </div>
         <h1>v-model render</h1>
-        <div id="vue-model">
-            <p>{{this.mes}}</p>
-            <input type="text" name="vueTest" v-model="mes">
+        <div id="vue-model" v-bind:class="[this.blue]" v-bind:style="this.classes">
+            <p>display: {{this.mes}}</p>
+            <input type="text" name="vueTest" v-model="mes" placeholder="input something">
         </div>
         <h1>v-component render</h1>
-        <div id="vue-component">
+        <div id="vue-component" v-show="true">
             <todo-item v-for="item in list" v-bind:todo="item" v-bind:key="item.id">
             </todo-item>
         </div>

@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"AUTO",
+				"autofocus\tAttr"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
 				"ba",
 				"background-color\tproperty"
 			],
@@ -14,10 +30,6 @@
 			[
 				"bor",
 				"border-left\tproperty"
-			],
-			[
-				"padd",
-				"padding-top\tproperty"
 			],
 			[
 				"margin",
@@ -132,10 +144,6 @@
 				"border-left\tproperty"
 			],
 			[
-				"back",
-				"background-size\tproperty"
-			],
-			[
 				"align",
 				"align-items\tproperty"
 			],
@@ -186,10 +194,6 @@
 			[
 				"min-",
 				"min-width\tproperty"
-			],
-			[
-				"mar",
-				"margin-left\tproperty"
 			],
 			[
 				"fon",
@@ -391,7 +395,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2343,
+				"buffer_size": 2659,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -400,7 +404,7 @@
 			"file": "dist/js/vueTest.js",
 			"settings":
 			{
-				"buffer_size": 1749,
+				"buffer_size": 2220,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -419,7 +423,16 @@
 			"file": "dist/css/main.css",
 			"settings":
 			{
-				"buffer_size": 1054,
+				"buffer_size": 1215,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dist/css/mediaQuery.css",
+			"settings":
+			{
+				"buffer_size": 136,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -428,7 +441,7 @@
 			"file": "nodeServer.js",
 			"settings":
 			{
-				"buffer_size": 478,
+				"buffer_size": 621,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -649,25 +662,32 @@
 	[
 		"/D/GitHub/Projects/clientSide/EnV.js",
 		"/D/GitHub/Projects/clientSide/EnV.js/dist",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/css",
 		"/D/GitHub/Projects/clientSide/EnV.js/dist/vue",
 		"/D/GitHub/Projects/clientSide/EnV.js/note"
 	],
 	"file_history":
 	[
-		"/D/GitHub/Projects/clientSide/EnV.js/note/DOM&&js(node,es).md",
+		"/D/GitHub/Projects/clientSide/webpack(manual)/package.json",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/webpack/package.json",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/webpack/web_modules/node-libs-browser.js",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/@vue/cli/package.json",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/@vue/cli/lib/PromptModuleAPI.js",
 		"/D/GitHub/Projects/clientSide/EnV.js/note/jsNote.js",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/css/mediaQuery.css",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/jshint/jshintrc",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/css/main.css",
+		"/D/GitHub/Projects/clientSide/EnV.js/note/DOM&&js(node,es).md",
 		"/D/GitHub/Projects/hw/web/form/dist/js/main.js",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/Main.js",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/mysql.js",
 		"/D/GitHub/Projects/nodeJSServer/gpnud.sql",
-		"/D/Program Files/nodeJS/node_modules/g/node_modules/jshint/jshintrc",
 		"/D/GitHub/Projects/clientSide/EnV.js/dist/js/JSTest.js",
 		"/D/GitHub/Projects/clientSide/EnV.js/note/DOMjs.md",
 		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
 		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/(JS)QA.js",
 		"/D/GitHub/Projects/clientSide/EnV.js/nodeServer.js",
-		"/D/GitHub/Projects/clientSide/EnV.js/dist/css/mediaQuery.css",
 		"/D/GitHub/Projects/java/JavaGradleAndroid/androidAPI.md",
 		"/D/GitHub/Projects/Android/MyApplication2/app/src/main/java/com/misaki/myapplication/MainActivity.java",
 		"/D/GitHub/Projects/java/JavaGradleAndroid/androidStudio&gradle.md",
@@ -775,13 +795,7 @@
 		"/C/Users/27568/AppData/Local/Temp/7zOCAE3E0F1/JavaC.sublime-build",
 		"/D/Program Files (x86)/Sublime Text 3/Packages/JavaScript.sublime-package",
 		"/C/Users/27568/AppData/Local/Temp/7zOC33F6ED9/JavaC.sublime-build",
-		"/D/Program Files (x86)/GitHub/Projects/WeChat1/app.json",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/mysql.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/gstes/front/app.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/gstes/front/pages/authorize/authorize.js",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/gpnud.sql",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/gstes/git_note.md",
-		"/D/Program Files (x86)/GitHub/Projects/nodeJSServer/test/mysqltest.js"
+		"/D/Program Files (x86)/GitHub/Projects/WeChat1/app.json"
 	],
 	"find":
 	{
@@ -799,6 +813,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"exp",
+			"expression",
 			"\"",
 			"regexp",
 			"outer",
@@ -823,7 +839,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -832,15 +848,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2343,
+						"buffer_size": 2659,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2300,
-								2300
+								2407,
+								2407
 							]
 						],
 						"settings":
@@ -859,10 +875,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 633.0,
+						"translation.y": 579.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -871,37 +887,40 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1749,
+						"buffer_size": 2220,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1346,
-								1432
+								278,
+								278
 							]
 						],
 						"settings":
 						{
 							"SL.14.region_keys":
 							[
-								"SL.jshint.Highlights.|0888ea1f3460382827ac71d396b7d18ffd6f03949ddfc92b4d7483ff81da582c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|b3daf36c4362b5bef176201742ede213b33f03de72f9d11328612e09c4fc4476|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|31352fc84dbffc644f85c24e5ae6840e9a10c5742c1fbd84734f70a2bb2a96ec|region.yellowish markup.warning.sublime_linter|32",
 								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.jshint.Highlights.|c90acaa9c1747220a3f682e2e56a8105a75bdc5898e8f2780914158da8f48d43|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|0796b23f5d769f02f8a9df9c8a4f977a5506e600e5be962cf0d22248e0fde0e5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|469af1e2f456f17848c4c508209badbddc14d4bb6c126dfd41f4d29a365a8326|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|5377e5ffefa5a4fa498b240b738bb9488af6ef5663f6fc36478d29c9b1b9cd76|region.yellowish markup.warning.sublime_linter|32",
 								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|98b50cc5a9a23bf263416fe928196af88d1acfb19f7ef0efc319a36c9c9917e8|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|26176eb50612fa32b4d426f714c21853c3b79e88dd35d57c1be6671831500bf2|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|bf18691b41ed763294d35cc94e02cbceb2077605adee9f1a45ba3d240883130c|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|ab68de2a974c2e76f24d57fc0f03e3537aa0bef072544b3bbbbb58a67acd788d|region.yellowish markup.warning.sublime_linter|32"
+								"SL.jshint.Highlights.|e63e06d2101040c0d651c3dce44a521057d4451db758211da0ddb72d865864df|region.yellowish markup.warning.sublime_linter|32"
 							],
 							"SL.15.region_keys":
 							[
-								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|cd74e011abb2c27c67afea1364d0539e76c1d2466abc71630ce07e05be6ab004|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|72bf55e88af5926f47eae622b631eb959e691de33721002ea8cb6442c3b521d7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|b3daf36c4362b5bef176201742ede213b33f03de72f9d11328612e09c4fc4476|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|469af1e2f456f17848c4c508209badbddc14d4bb6c126dfd41f4d29a365a8326|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|e63e06d2101040c0d651c3dce44a521057d4451db758211da0ddb72d865864df|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|0796b23f5d769f02f8a9df9c8a4f977a5506e600e5be962cf0d22248e0fde0e5|region.yellowish markup.warning.sublime_linter|32",
 								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.jshint.Highlights.|2c7383111c81d1928cdc4639e486587e545017baf6e0a13f410436ff24a74dcc|region.yellowish markup.warning.sublime_linter|32"
+								"SL.jshint.Highlights.|31352fc84dbffc644f85c24e5ae6840e9a10c5742c1fbd84734f70a2bb2a96ec|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|5377e5ffefa5a4fa498b240b738bb9488af6ef5663f6fc36478d29c9b1b9cd76|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions"
 							],
 							"SL.18.region_keys":
 							[
@@ -936,10 +955,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 702.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -955,12 +974,21 @@
 						"selection":
 						[
 							[
-								53,
-								61
+								203,
+								203
 							]
 						],
 						"settings":
 						{
+							"SL.15.region_keys":
+							[
+							],
+							"SL.16.region_keys":
+							[
+							],
+							"SL.17.region_keys":
+							[
+							],
 							"SL.22.region_keys":
 							[
 								"sublime_linter.protected_regions"
@@ -974,7 +1002,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -983,58 +1011,75 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1054,
+						"buffer_size": 1215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								993,
-								993
+								1059,
+								1059
 							]
 						],
 						"settings":
 						{
-							"SL.14.region_keys":
-							[
-							],
-							"SL.15.region_keys":
-							[
-							],
-							"SL.17.region_keys":
-							[
-							],
-							"SL.34.region_keys":
-							[
-							],
 							"color_scheme": "Packages/User/ColorHighlighter/themes/Material-Theme-Darker.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1080.0,
+						"translation.y": 972.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "nodeServer.js",
+					"file": "dist/css/mediaQuery.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 478,
+						"buffer_size": 136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								456,
-								456
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/ColorHighlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "nodeServer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								595
 							]
 						],
 						"settings":
@@ -1044,6 +1089,16 @@
 							],
 							"SL.16.region_keys":
 							[
+							],
+							"SL.17.region_keys":
+							[
+							],
+							"SL.18.region_keys":
+							[
+							],
+							"SL.19.region_keys":
+							[
+								"sublime_linter.protected_regions"
 							],
 							"SL.20.region_keys":
 							[
@@ -1059,14 +1114,14 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "dist/js/canvas.js",
 					"semi_transient": false,
 					"settings":
@@ -1114,13 +1169,29 @@
 								"SL.jshint.Highlights.|5a9352c38683c4733d28d9df0ec95dc8041117455671b87aa15e2ab48334df01|region.yellowish markup.warning.sublime_linter|32",
 								"SL.jshint.Highlights.|cbbca6fb6e22ea448eff1d8ceca02c6c62a017a310fce3272e03f67182f3298b|region.yellowish markup.warning.sublime_linter|32"
 							],
+							"SL.18.region_keys":
+							[
+								"SL.jshint.Highlights.|5a9352c38683c4733d28d9df0ec95dc8041117455671b87aa15e2ab48334df01|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|535c1ea9930a28327b04b6a31b5142ab647fd2b61a0d863e1f8b66ccb791577f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|cbbca6fb6e22ea448eff1d8ceca02c6c62a017a310fce3272e03f67182f3298b|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions"
+							],
 							"SL.19.region_keys":
 							[
-								"SL.jshint.Highlights.|e5320e411750e5ad20ac3f91ab4afc932744cea01175605c86aad8f221996bc7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|535c1ea9930a28327b04b6a31b5142ab647fd2b61a0d863e1f8b66ccb791577f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|5a9352c38683c4733d28d9df0ec95dc8041117455671b87aa15e2ab48334df01|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|cbbca6fb6e22ea448eff1d8ceca02c6c62a017a310fce3272e03f67182f3298b|region.yellowish markup.warning.sublime_linter|32",
 								"sublime_linter.protected_regions",
-								"SL.jshint.Highlights.|934a4ca3f914718f5747b7bcad23f5b68e32b72a0fab4874562953e8a63d1f26|region.yellowish markup.warning.sublime_linter|32",
-								"SL.jshint.Highlights.|89e18ff18d0ae58645577f8968495122761a4fc61c053ace10e689e1b096c92e|region.yellowish markup.warning.sublime_linter|32",
 								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"SL.20.region_keys":
+							[
+								"SL.jshint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.jshint.Highlights.|cbbca6fb6e22ea448eff1d8ceca02c6c62a017a310fce3272e03f67182f3298b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.jshint.Highlights.|535c1ea9930a28327b04b6a31b5142ab647fd2b61a0d863e1f8b66ccb791577f|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.jshint.Highlights.|5a9352c38683c4733d28d9df0ec95dc8041117455671b87aa15e2ab48334df01|region.yellowish markup.warning.sublime_linter|32"
 							],
 							"SL.22.region_keys":
 							[
@@ -1163,7 +1234,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
