@@ -19,7 +19,7 @@
 > the err indicate that the vue module you import is runtime-only, <strong>resolution</strong> change imported vue version to dev version `import Vue from 'vue/dist/vue.js'(all js refered in webpack entry)`
 *(!) the resolution is General but respond on your vue path and available version, in webpack build, if you do not set your development('production'/'development'), default 'production', the vue version is also producion version: named `vue.common.js` or others*
 
-#### ...<head><srcipt src="{path}/built.js"/><style>selector{...}</style></head>...
+#### .../<head/>/<srcipt src="{path}/built.js"/><style>selector{...}</style>/</head/>...
 
 > the rendered dom head structure may like above, the css style will be writed in <style/> scope, and the complied js will be imported with script src attr 
 
