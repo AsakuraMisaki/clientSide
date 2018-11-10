@@ -51,3 +51,17 @@ padding+margin+border+content-self in flex > screen width*/
     /*use unicode to import required and special font/icon*/
     content: "\e626";
 }
+
+
+/*float, assume your browser screen*/
+Browser-Screen{
+	width: 1280px;
+	height: 720px;
+}
+[class*="float-"]{
+	float: left;
+	width: 50%; /*== 50% * screen.width == 640px true*/
+	height: 50%; /*== 720 * 50% == 360px true*/
+}
+/*if its container is flex(display: flex), float will not [lose efficacy失效],
+but will be affected by flex
