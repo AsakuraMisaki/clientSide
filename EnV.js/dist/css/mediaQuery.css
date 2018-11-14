@@ -1,9 +1,13 @@
 /*media-adapt*/
 @media screen and (max-width: 960px) {
 
-    #display{
-        width: 100%;
-    }
+	body{
+		flex-direction: column;
+	}
+
+	.float-left{
+		margin-right: 5px;
+	}
 
     html{
     	font-size: 7px;

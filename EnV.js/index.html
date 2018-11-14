@@ -10,7 +10,7 @@
     <link href="./dist/res/image/home.png" size="32x32" rel="icon" type="image/png">
     <!-- <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
     <link href="./dist/css/main.css" rel="stylesheet" type="text/css">
-    <link href="./dist/css/mediaQuery.css" media="screen and (max-width:960px)"  rel="stylesheet" type="text/css">
+    <link href="./dist/css/mediaQuery.css" media="screen and (max-width:960px)" rel="stylesheet" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
     <!-- <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
@@ -26,7 +26,15 @@
 </head>
 
 <body>
-    <div id="infoPrint"></div>
+    <div id="infoPrint">
+        <div id="test">
+            <div class="float-left"></div>
+            <div class="float-left"></div>
+            <div class="float-left"></div>
+            <div class="float-left"></div>
+            <div class="float-left"></div>
+        </div>
+    </div>
     <div id="display">
         <h1>single item render(listen:click)</h1>
         <div id="vue-mes" v-on:click="toogleTip">

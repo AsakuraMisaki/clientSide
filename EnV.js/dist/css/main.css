@@ -4,14 +4,13 @@
     {
     #ff3950 #deff00 #1e575e #18f1ec #fff #4fe5f7;
 }
-
-html {
-    font-size: 10px;
-}
-
 @font-face {
     font-family: "flatUIProIcons";
     src: url("../res/font/glyphicons/flat-ui-pro-icons-regular.ttf");
+}
+
+html {
+    font-size: 10px;
 }
 
 p{
@@ -25,6 +24,7 @@ div{
 }
 
 body {
+    display: flex;
     box-sizing: border-box;
     margin:0px;
     font-family: sans-serif;
@@ -32,14 +32,26 @@ body {
     padding-left: 10px;
     padding-right: 20px;
 }
-#display{
-    width:45%;
+span{
+    padding: 5px 5px 0px 5px;
+}
+
+ul{
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+
+li:not(:nth-last-child(1)){
+    padding: 5px 0px 0px 0px;
 }
 
 h1 {
     font-size: 3rem;
     margin-bottom: 10px;
 }
+
 input{
     margin-top: 10px;
     margin-bottom: 5px;
@@ -55,6 +67,16 @@ hr {
     margin-bottom: 15px;
 }
 
+
+#infoPrint{
+    width: 80%;
+    padding: 15px 15px 10px 0px;
+}
+#test{
+    background: #4f4f4f;
+    height: 50%;
+}
+
 [id*="vue-"],
 [class*="vue-"] {
     margin-top: 15px;
@@ -64,24 +86,17 @@ hr {
     border-left: 10px solid #3f3f3f;
     background-color: #e94;
 }
+.float-left{
+    box-sizing: content-box;
+    float: left;
+    background: #49f;
+    height: 50px;
+    width: 20px;
+    margin: 20% 10px 10px 12%;
+}
 .bg-blue{
     background-color: #49f;
 }
 .cl-black{
     color: #000;
-}
-
-span{
-    padding: 5px 5px 0px 5px;
-}
-
-ul{
-    padding: 0px;
-}
-li{
-    list-style: none;
-}
-
-li:not(:nth-last-child(1)){
-    padding: 5px 0px 0px 0px;
 }
