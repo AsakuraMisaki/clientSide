@@ -66,8 +66,7 @@ vue init webpack my-project`
 > (publicPath) in (devServer) : the virtual route, which is the base path of the output packed file<br>
 > eg. `./index.html
 ...
-\<div id="app"\>/</div/>
-<span>Control</span>
+\<div id="app"\></div/>
 <script src="./assets/built.js"></script>
 ...`
 >```./build/dev.config.js
