@@ -49,7 +49,7 @@ vue init webpack my-project`
 > some unexpected errors will happen with using global webpack command to build a particular project<br>
 *(!) the errors is updating*
 
-* `module.exports = SET:object`
+* `module.exports = {...}`
 
 > https://webpack.js.org/concepts/
 
