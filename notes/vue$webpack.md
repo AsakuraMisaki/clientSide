@@ -65,7 +65,8 @@ vue init webpack my-project`
 > (devServer) : only for {dev}, (contentBase) is the root path of (pulicPath), when start your project in host:port, index.html/default.html/otherDefaultFile will be found in this root path, if not found any available file, {dev} will automatically genarates an index.html which contains the view to show the current root path and files in the path<br>
 > (publicPath) in (devServer) : the virtual route, which is the base path of the output packed file<br>
 
-> ```./build/dev.config.js
+> ```
+./build/dev.config.js
 module.exports = {
     entry: {
         main: './src/main.js'
@@ -95,4 +96,5 @@ module.exports = {
     plugins: [
         new webpack.HotModuleReplacementPlugin()
     ]
-}```
+}
+```
