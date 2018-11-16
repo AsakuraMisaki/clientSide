@@ -62,10 +62,10 @@ vue init webpack my-project`
 > (entry) : define the files[array] needed to be packed <br>
 > (output) : (path) is the base path of the output packed file (filename);<br>
 
-*(Diff) in {webpack}, the output file exists in your [fixed disk硬盘] while in {dev}, the output file bytes will be writen in memory instead of be output to fixed disk (the file exists only in the runtime of server)*
+***(Diff) in {webpack}, the output file exists in your [fixed disk硬盘] while in {dev}, the output file bytes will be writen in memory instead of be output to fixed disk (the file exists only in the runtime of server)***
 
 > (devServer) : only for {dev}, (contentBase) is the root path of (pulicPath), when start your project in host:port, index.html/default.html/otherDefaultFile will be found in this root path, if not found any available file, {dev} will automatically genarates an index.html which contains the view to show the current root path and files in the path<br>
-> (publicPath) in (devServer) : the virtual route, which is the base path of the output packed file<br>
+>> (publicPath) in (devServer) : the virtual route, which is the base path of the output packed file<br>
 > example: 
 
 ```
