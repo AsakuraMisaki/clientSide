@@ -69,7 +69,7 @@ vue init webpack my-project`
 \<div id="app"\></div>
 <script src="./assets/built.js"></script>
 ...`
->```./build/dev.config.js
+> `./build/dev.config.js
 module.exports = {
     entry: {
         main: './src/main.js'
@@ -99,4 +99,4 @@ module.exports = {
     plugins: [
         new webpack.HotModuleReplacementPlugin()
     ]
-}```
+}`
