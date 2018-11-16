@@ -106,6 +106,7 @@ module.exports = {
         port: 8000
     },
     plugins: [
+    	//HMR plugin
         new webpack.HotModuleReplacementPlugin()
     ]
 }
