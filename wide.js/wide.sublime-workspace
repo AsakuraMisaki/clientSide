@@ -1,0 +1,1258 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"web",
+				"webpack-dev-server"
+			],
+			[
+				"http",
+				"http.createServer"
+			],
+			[
+				"createSer",
+				"http.createServer"
+			],
+			[
+				"JSON",
+				"JSON_stringify\t( value: any, replacer?: any, space?: any ): string JSON"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"prop",
+				"propertyTransform"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"file_",
+				"file_get_contents"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"responseT",
+				"responseText\t XMLHttpRequest"
+			],
+			[
+				"js",
+				"json_decode"
+			],
+			[
+				"ap",
+				"append\t.append()"
+			],
+			[
+				"sta",
+				"status\t: DOMString Window"
+			],
+			[
+				"onre",
+				"onreadystatechange\t XMLHttpRequest"
+			],
+			[
+				"pare",
+				"parentNode\t(): Node TreeWalker"
+			],
+			[
+				"chil",
+				"childNodes\t: NodeList Node"
+			],
+			[
+				"chi",
+				"childNodes\t: NodeList Node"
+			],
+			[
+				"padd",
+				"padding-right\tproperty"
+			],
+			[
+				"remo",
+				"removeChild\t( child: Node ): Node Node"
+			],
+			[
+				"hasC",
+				"hasChildNodes\t(): boolean Node"
+			],
+			[
+				"addC",
+				"appendChild\t( node: Node ): Node Node"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"mysql",
+				"mysql_error"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"margi",
+				"margin-right\tproperty"
+			],
+			[
+				"ma",
+				"margin-right\tproperty"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"AUTO",
+				"autofocus\tAttr"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"rad",
+				"border-bottom-right-radius\tproperty"
+			],
+			[
+				"bor",
+				"border-left\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"bot",
+				"margin-bottom\tproperty"
+			],
+			[
+				"size",
+				"font-size\tproperty"
+			],
+			[
+				"prototy",
+				"prototype"
+			],
+			[
+				"getP",
+				"getProperty"
+			],
+			[
+				"para",
+				"parasitic"
+			],
+			[
+				"super",
+				"superType"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"sub",
+				"subType"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"consoe",
+				"console.log"
+			],
+			[
+				"const",
+				"constructor"
+			],
+			[
+				"Obj",
+				"Object"
+			],
+			[
+				"define",
+				"defineProperties\t( o: Object, props: any ): Object Object"
+			],
+			[
+				"asser",
+				"assertValue"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"moud",
+				"module"
+			],
+			[
+				"orig",
+				"originalUrl"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"can",
+				"canvas\tTag"
+			],
+			[
+				"o",
+				"opacity\tproperty"
+			],
+			[
+				"s",
+				"script\tTag"
+			],
+			[
+				"innerH",
+				"innerHeight\t.innerHeight()"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"fl",
+				"flatUIProIcons"
+			],
+			[
+				"border",
+				"border-left\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"bo",
+				"box-sizing\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"ovwe",
+				"overflow\tproperty"
+			],
+			[
+				"fle",
+				"flex-end\talign-self"
+			],
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"ov",
+				"overflow\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"min-",
+				"min-width\tproperty"
+			],
+			[
+				"fon",
+				"font-style\tproperty"
+			],
+			[
+				"row",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"e",
+				"embed\tTag"
+			],
+			[
+				"Re",
+				"RegExp\t( pattern: any, flags: string ): RegExp RegExp"
+			],
+			[
+				"ind",
+				"indexOf\t( searchString: string, position?: int ): int String"
+			],
+			[
+				"vueI",
+				"vueImitate"
+			],
+			[
+				"createT",
+				"createTextNode\t( data: DOMString ): Text Document"
+			],
+			[
+				"append",
+				"appendChild\t( node: Node ): Node Node"
+			],
+			[
+				"getEl",
+				"getElementsByTagName\t( localName: DOMString ): HTMLCollection Element"
+			],
+			[
+				"cr",
+				"createElement\t( localName: DOMString ): Element Document"
+			],
+			[
+				"ex",
+				"express"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"testCase",
+				"testCaseCompare"
+			],
+			[
+				"ass",
+				"assert.equal"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"messageUpdate",
+				"messageUpdateF"
+			],
+			[
+				"expres",
+				"express.static"
+			],
+			[
+				"arr",
+				"util.isArray"
+			],
+			[
+				"argu",
+				"argument"
+			],
+			[
+				"baby",
+				"babyclass"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"multerSt",
+				"multerStorageKey"
+			],
+			[
+				"global",
+				"globalValue"
+			],
+			[
+				"multer",
+				"multerStorage"
+			],
+			[
+				"url",
+				"req.baseUrl"
+			],
+			[
+				"acess",
+				"fs.access"
+			],
+			[
+				"crea",
+				"crypto.createDecipher"
+			],
+			[
+				"head",
+				"req.header(field)"
+			],
+			[
+				"d",
+				"data\t.data()"
+			],
+			[
+				"ori",
+				"req.originalUrl"
+			],
+			[
+				"console",
+				"console.log"
+			],
+			[
+				"dow",
+				"res.download(path [, filename] [, fn])"
+			],
+			[
+				"requ",
+				"http.request"
+			],
+			[
+				"createser",
+				"http.createServer"
+			],
+			[
+				"serv",
+				"net.Server"
+			],
+			[
+				"cons",
+				"console.log"
+			],
+			[
+				"CON",
+				"console.log"
+			],
+			[
+				"she",
+				"shell_cmd"
+			],
+			[
+				"Conso",
+				"console.log"
+			],
+			[
+				"w",
+				"Windows"
+			],
+			[
+				"K",
+				"KnockAndPlay"
+			],
+			[
+				"Sou",
+				"SoundPlayer"
+			],
+			[
+				"_",
+				"_filePath"
+			],
+			[
+				"top",
+				"topAction"
+			],
+			[
+				"r",
+				"RecursivelyCreate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 172,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/component/hello.vue",
+			"settings":
+			{
+				"buffer_size": 194,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 160,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Nodejs/Nodejs.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/(onlyOutput)JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/(secondChoice)JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/(secondChoice)JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/(secondChoice)JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/(secondChoice)JavaC.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/(secondChoice)JavaC.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/JavaC.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/JavaC.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Nodejs/Nodejs.sublime-build",
+					""
+				],
+				[
+					"Packages/User/npm-run/npm-run-dev.sublime-build",
+					""
+				],
+				[
+					"Packages/User/npm-run/npm-run-hot.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/npm-run/npm-run-hot.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Nodejs/Nodejs.sublime-build",
+					""
+				],
+				[
+					"Packages/User/npm-run/npm-run-hot.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Nodejs/Nodejs.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Nodejs/Nodejs.sublime-build",
+					""
+				],
+				[
+					"Packages/User/npm.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/npm.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Nodejs/Nodejs.sublime-build",
+					""
+				],
+				[
+					"Packages/User/npm/npm-run-dev.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Nodejs/Nodejs.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/npm-run/npm-run-dev.sublime-build",
+					""
+				],
+				[
+					"Packages/User/npm-run/npm-run-hot.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/npm-run/npm-run-hot.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/npm-run/npm-run-dev.sublime-build",
+					""
+				],
+				[
+					"Packages/User/npm-run/npm-run-prd.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/npm-run/npm-run-dev.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/npm/cnpm-install.sublime-build",
+					""
+				],
+				[
+					"Packages/User/npm/npm-run-dev.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/npm/cnpm-install.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"sjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"instaal",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"IN",
+				"Package Control: Install Package"
+			],
+			[
+				"RE",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install Package Control",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/GitHub/Projects/clientSide/wide.js"
+	],
+	"file_history":
+	[
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/npm/npm-run-dev.sublime-build",
+		"/D/GitHub/Projects/clientSide/wide.js/build/webpack.dev.config.js",
+		"/D/GitHub/Projects/clientSide/wide.js/1.css",
+		"/D/GitHub/Projects/clientSide/wide.js/package.json",
+		"/D/GitHub/Projects/clientSide/webpackTest/build/webpack.base.conf.js",
+		"/D/GitHub/Projects/clientSide/webpackTest/package.json",
+		"/D/GitHub/Projects/clientSide/webpackTest/src/main.js",
+		"/D/GitHub/Projects/clientSide/notes/vue$webpack.md",
+		"/D/GitHub/Projects/clientSide/notes/nodejsMysql.md",
+		"/D/GitHub/Projects/clientSide/wide.js/src/index.js",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/npm/cnpm-install.sublime-build",
+		"/D/GitHub/Projects/clientSide/vue-xw/package.json",
+		"/D/GitHub/Projects/clientSide/wide.js/index.html",
+		"/D/GitHub/Projects/clientSide/wide.js/build/webpack.hot.config.js",
+		"/D/GitHub/Projects/clientSide/wide.js/node_modules/_has@1.0.3@has/package.json",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/Nodejs/messages.json",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/Nodejs/Default.sublime-commands",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/Nodejs/Nodejs.sublime-build",
+		"/D/GitHub/Projects/clientSide/wide.js/s.xxx",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/Nodejs/package.json",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/npm-run/npm-run-dev.sublime-build",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/npm-run/npm-run-prd.sublime-build",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/npm-run/npm-install.sublime-build",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/npm-run/npm install.sublime-build",
+		"/D/GitHub/Projects/clientSide/vue-xw/README.md",
+		"/D/GitHub/Projects/clientSide/vue-xw/build/webpack.base.conf.js",
+		"/D/GitHub/Projects/clientSide/vue-xw/src/main.js",
+		"/D/GitHub/Projects/clientSide/vue-xw/src/router/index.js",
+		"/D/GitHub/Projects/clientSide/vue-xw/index.html",
+		"/D/GitHub/Projects/clientSide/vue-xw/src/App.vue",
+		"/D/GitHub/Projects/clientSide/wide.js/nodeServer.js",
+		"/D/GitHub/Projects/clientSide/wide.js/nodeEvents.js",
+		"/D/GitHub/Projects/clientSide/wide.js/node.js",
+		"/D/GitHub/Projects/clientSide/vue-xw/src/components/HelloWorld.vue",
+		"/D/GitHub/Projects/clientSide/vue-xw/build/webpack.dev.conf.js",
+		"/D/GitHub/Projects/clientSide/vue-xw/build/vue-loader.conf.js",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/npm-run/npm-run-hot.sublime-build",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/npm-run-hot.sublime-build",
+		"/D/GitHub/Projects/java/JavaGradleAndroid/HelloJava/HelloJava.java",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/npm.sublime-build",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/Shell Turtlestein/Shell Turtlestein.sublime-settings",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/D/Program Files/Apache24/htdocs/test/login.php",
+		"/D/GitHub/Projects/hw/web/css/src/test.js",
+		"/D/GitHub/Projects/hw/web/css/nodeServer.js",
+		"/D/GitHub/Projects/hw/web/css/server.html",
+		"/D/GitHub/Projects/clientSide/notes/android/ListViewTest.java",
+		"/D/GitHub/Projects/clientSide/notes/android/androidAPI.md",
+		"/D/GitHub/Projects/clientSide/notes/android/androidStudio&gradle.md",
+		"/D/GitHub/Projects/clientSide/notes/android/Android.md",
+		"/D/GitHub/Projects/java/JavaGradleAndroid/androidAPI.md",
+		"/D/GitHub/Projects/java/JavaGradleAndroid/androidStudio&gradle.md",
+		"/D/GitHub/Projects/clientSide/.gitignore",
+		"/D/GitHub/Projects/clientSide/gitignore",
+		"/D/GitHub/Projects/clientSide/webpackTestManual/package.json",
+		"/D/GitHub/Projects/clientSide/notes/DOM&&js(node,es,HTTP+).md",
+		"/D/Program Files/Apache24/conf/httpd.conf",
+		"/D/GitHub/Projects/php/gpnud.sql",
+		"/D/GitHub/Projects/php/login.php",
+		"/D/Program Files/Apache24/conf/extra/httpd-ssl.conf",
+		"/D/GitHub/Projects/php/web.config",
+		"/D/GitHub/Projects/php/index.php",
+		"/D/GitHub/Projects/php/delete-user.php",
+		"/D/GitHub/Projects/php/register.php",
+		"/D/Program Files/Apache24/conf/extra/httpd-ahssl.conf",
+		"/D/GitHub/Projects/hw/web/css/index.html",
+		"/D/GitHub/Projects/clientSide/EnV.js/nodeServer.js",
+		"/D/GitHub/Projects/hw/web/css/src/register.php",
+		"/D/GitHub/Projects/hw/web/css/src/main.css",
+		"/D/GitHub/Projects/hw/web/css/src/main.js",
+		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/mysql.js",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/express/body-parser/README.md",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/ConvertToUTF8/ConvertToUTF8.sublime-settings",
+		"/D/Program Files/php7/php.ini-development",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/js/canvas.js",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/css/mediaQuery.css",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/vue/myComponent.vue",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/js/JSTest.js",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/js/vueTest.js",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/css/main.css",
+		"/D/GitHub/Projects/clientSide/EnV.js/index.html",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/D/GitHub/Projects/clientSide/webpack(manual)/package.json",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/webpack/package.json",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/webpack/web_modules/node-libs-browser.js",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/@vue/cli/package.json",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/@vue/cli/lib/PromptModuleAPI.js",
+		"/D/GitHub/Projects/clientSide/EnV.js/note/jsNote.js",
+		"/D/Program Files/nodeJS/node_modules/g/node_modules/jshint/jshintrc",
+		"/D/GitHub/Projects/clientSide/EnV.js/note/DOM&&js(node,es).md",
+		"/D/GitHub/Projects/hw/web/form/dist/js/main.js",
+		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/Main.js",
+		"/D/GitHub/Projects/nodeJSServer/gpnud.sql",
+		"/D/GitHub/Projects/clientSide/EnV.js/note/DOMjs.md",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/(JS)QA.js",
+		"/D/GitHub/Projects/Android/MyApplication2/app/src/main/java/com/misaki/myapplication/MainActivity.java",
+		"/D/GitHub/Projects/Android/MyApplication2/app/build/outputs/apk/release/output.json",
+		"/D/GitHub/Web/Flat-UI-master/dist/css/flat-ui.css",
+		"/D/Program Files/nodeJS/node_modules/g/jshint",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/globalDefination.js",
+		"/D/GitHub/Projects/clientSide/EnV.js/note/nodejsMysql.md",
+		"/D/Program Files/nodeJS/node_modules/npm/npmrc",
+		"/D/GitHub/Web/Flat-UI-master/dist/css/flat-ui.min.css",
+		"/D/GitHub/Projects/clientSide/EnV.js/dist/js/qunitTest.js",
+		"/D/GitHub/Projects/clientSide/testCase1/js/qunitTest.js",
+		"/D/GitHub/Projects/clientSide/testCase1/note/CssNote.css",
+		"/D/GitHub/Projects/clientSide/testCase1/nodeServer.js",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/search.svg",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/D/GitHub/Projects/clientSide/testCase1/Note/JS+C_SNote.md",
+		"/D/GitHub/Projects/clientSide/testCase1/JS Frame Note.md",
+		"/D/GitHub/Projects/clientSide/testCase1/js/nodeServer.js",
+		"/D/GitHub/Projects/clientSide/testCase1/css/CssNote.css",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/menu.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/user.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/guide.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/search press.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/drag.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/circle.svg",
+		"/D/GitHub/Projects/clientSide/testCase1/css/TestCase.css",
+		"/C/Users/27568/AppData/Roaming/Sublime Text 3/Packages/User/HTMLPrettify.sublime-settings",
+		"/D/GitHub/Projects/clientSide/testCase/js/nodeServer.js",
+		"/D/GitHub/Projects/clientSide/testCase/TestCase.css",
+		"/D/GitHub/Projects/clientSide/testCase/CssNote.css",
+		"/D/GitHub/Projects/clientSide/testCase/js/JSTest.js"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/g",
+			"VirtualHost",
+			"Virtual",
+			"Viru",
+			"Directory",
+			"${SRVROOT}",
+			"DirectoryIndex",
+			"ScriptAlias",
+			"Module",
+			"load",
+			"loadModule",
+			"serverroot",
+			">\n",
+			"\">\n",
+			"ini",
+			"timezone",
+			"extension",
+			"ex",
+			"exp",
+			"expression",
+			"\"",
+			"regexp",
+			"outer",
+			"./res/image/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"D:/Program Files/Apache24",
+			"`",
+			"Outer",
+			"./dist/res/image/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"SL.32.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/component/hello.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.52.region_keys":
+							[
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								144
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 150.0
+	},
+	"output.exec":
+	{
+		"height": 137.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 268.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "wide.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Program Files (x86)\\GitHub\\Projects\\nodeJSServer\\gstes\\nodejs\\gstes.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"cryptoUser"
+			]
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

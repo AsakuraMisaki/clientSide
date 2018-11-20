@@ -1,25 +1,25 @@
 {
-  "name": "webpackTestManual",
+  "name": "wide",
   "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "main": "index.js",
+  "description": "webpackVueTest",
   "scripts": {
-    "dev": "webpack --config ./build/webpackDev.config.js",
-    "devBuild": "webpack-dev-server --inline --progress --config ./build/webpackDev.config.js",
-    "hot": "webpack-dev-server --inline --progress --config ./build/webpack.hot.config.js"
+    "dev": "webpack-dev-server --inline --config ./build/webpack.dev.config.js",
+    "build": "webpack --inline --config ./build/webpack.base.config.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "asakura",
   "license": "ISC",
   "dependencies": {
     "vue": "^2.5.2",
+    "vue-router": "^3.0.1",
     "webpack": "^3.6.0"
   },
   "devDependencies": {
-  	"vue-loader": "^13.3.0",
-  	"vue-template-compiler": "^2.5.2",
-  	"css-loader": "^0.28.0",
-  	"webpack-dev-server": "^2.9.1"
+    "vue-loader": "^13.3.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-merge": "^4.1.0",
+    "vue-template-compiler": "^2.5.2",
+    "vue-style-loader": "^3.0.1",
+    "css-loader": "^0.28.0"
   }
 }
