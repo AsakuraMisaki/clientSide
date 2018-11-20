@@ -1,0 +1,25 @@
+{
+  "name": "webpackTestManual",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config ./build/webpackDev.config.js",
+    "devBuild": "webpack-dev-server --inline --progress --config ./build/webpackDev.config.js",
+    "hot": "webpack-dev-server --inline --progress --config ./build/webpack.hot.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.2",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+  	"vue-loader": "^13.3.0",
+  	"vue-template-compiler": "^2.5.2",
+  	"css-loader": "^0.28.0",
+  	"webpack-dev-server": "^2.9.1"
+  }
+}

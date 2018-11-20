@@ -5,7 +5,7 @@
 
 ## npm
 
-* npm install (-g)
+* npm install/remove <name> (-g)
 
 > all repertories仓库 can use npm install/remove (-g) to import/remove<br>
 
@@ -54,6 +54,7 @@ vue init webpack my-project`
 > https://webpack.js.org/concepts/
 
 ### webpack-dev-server(dev)
+
 > (!) [type/translation], {environment}, (property/variable)<br>
 > tutorial: https://webpack.js.org/guides/hot-module-replacement/
 
@@ -64,20 +65,19 @@ vue init webpack my-project`
 
 ***(Diff) in {webpack}, the output file exists in your [fixed disk硬盘] while in {dev}, the output file bytes will be writen in memory instead of be output to fixed disk (the file exists only in the runtime of server)***
 
-> (devServer) : only for {dev}, (contentBase) is the root path of (pulicPath), when start your project in host:port, index.html/default.html/otherDefaultFile will be found in this root path, if not found any available file, {dev} will automatically genarates an index.html which contains the view to show the current root path and files in the path<br>
->> (publicPath) in (devServer) : the virtual route, which is the base path of the output packed file<br>
+> (devServer) : only for {dev}, (contentBase) is the root path of (pulicPath). when start your project in host:port, index.html/default.html/otherDefaultFile will be found in this root path, if not found any available file, {dev} will automatically genarates an index.html which contains the view to show the current root path and files in the path<br>
+>> (publicPath) in (devServer) : the virtual route, which is the base path of the output packed file which is ***only in memory***<br>
 
-> example: 
+> example: to open HMR in {dev} 
 
 ```
 ./index.html
 ...
 <div id="app"></div>
-<span>Control</span>
 <script src="./assets/built.js"></script>
 ...
-```
-```
+
+
 ./build/webpack-dev-server.config.js
 module.exports = {
     entry: {
@@ -90,7 +90,9 @@ module.exports = {
     },
     module: {
         rules: [{
+            //Regexp
             test: /\.vue$/,
+            //which loader to handle the test files
             loader: 'vue-loader'
         }]
     },
@@ -98,7 +100,8 @@ module.exports = {
     	//root path: ../build
         contentBase: path.join(__dirname, '../'),
         //the base path of output.filename in output
-        //in index.html, use ../build/assets/built.js = ./assets/built.js to refer 
+        //in index.html, use ../build/assets/built.js = ./assets/built.js to refer
+        //but remember, in {dev}, the output.filename is only in memory 
         publicPath: "/assets/",
         //hot module replacement(HMR) turn on
         hot: true,
@@ -111,3 +114,23 @@ module.exports = {
     ]
 }
 ```
+
+* import ... from '@/...' (alias of symbol)
+
+```
+./required module
+import HelloWorld from '@/components/HelloWorld'
+
+
+./the run config.js (webpack)
+resolve: {
+    extensions: ['.js', '.vue', '.json'],
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js',
+      '@': resolve('src'),
+    }
+  }
+```
+>then the '@' -> 'src'
+
+
