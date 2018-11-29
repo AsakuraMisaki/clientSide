@@ -51,12 +51,22 @@
 > 'application/json' => '{"key":"value"}'; 'application/x-www-form-urlencoded' => 'key=value' ; ...
 *(!) if the two contents is not corresponding, server can not process any data in req-main-body, in some case, chrome throws a CORS POLICY error*
 
+
+### String Stream and Byte Stream
+
+* The former need the Buffer缓冲区, the latter do not
+
+> for String Stream, if you use ```java new OutputStreamWriter().write(string str)``` to send data to server, you must close its buffer ```java theWriter.close()``` after writing, since the data will not release to be sent before you close the buffer, which is a temporary memory to store the data;
+
+> for Byte Stream, which does not need buffer, all you need is write data(byte[]) into it; 
+
 ### PHP
 
 * compatibility with web server softwares (apache/iis/nginx)
 
 > IIS [win10(home)x64 $ php5.8/php7.2]: in cors-relative setting<br>
-> php `header("Access-Control-Allow-Origin: http://127.0.0.1")` like left usage of header: `SOMETIME SUCCESS` but usually fail, after setting header in iis website,  you must set (php.ini)`always_populate_raw_post_data = -1` to avoid err like `err: it is not recommend to set header in environment outside php`<br> *(!)The SOMETIME SUCCESS is confusing, you might success in [cilent (connect to) server] but fail in [server (respond to) client], and cause a CORS ERR (0x000)*<br>
+> php `header("Access-Control-Allow-Origin: http://127.0.0.1")` like left usage of header: ***SOMETIME SUCCESS*** but usually fail, after setting header in iis website,  you must set (php.ini)`always_populate_raw_post_data = -1` to avoid err like `err: it is not recommend to set header in environment outside php`<br> 
+*(!)The SOMETIME SUCCESS is confusing, you might success in [cilent (connect to) server] but fail in [server (respond to) client], and cause a CORS ERR (0x000)*<br>
 > Apache24 [win10(home)x64 $ php5.8/php7.2]: in cors-relative setting<br>
 > apache`<Directory />
     AllowOverride none
