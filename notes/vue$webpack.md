@@ -1,22 +1,24 @@
 # Webpack And Vue.js Projects Build
-* [npm](#npm)
-* [vue](#vue2.0+)
-* [webpack](#webpack)
-* [CommonJS & ES2015](#CommonJS+%26+ES2015)
+#### [npm](#npm)
+#### [vue](#vue2.0+)
+#### [webpack](#webpack)
+#### [CommonJS & ES2015](#CommonJS+%26+ES2015)
 
 ## npm
 
-* npm install/remove <name> (-g)
+#### npm install/remove <name> (-g)
 
 > all repertories仓库 can use npm install/remove (-g) to import/remove<br>
 
-* npm init (options)
+#### npm init (options)
 
-> npm init (-y), with -y:generate default package.json, without -y:generate user-defined package.json<br>
-> `"dependencies: {...}, devDependencies: {...}"` in package.json will be downloaded into node_modules with `npm install` , then you can require them with CommonJS syntax, eg. require('vue-loader')<br>
-> `scripts{"dev": "someCommand"}` in package.json means that you can use corresponding相应的 alias to run user-defined npm command, eg. `npm run dev` = `someCommand`
+> npm init (-y), with -y:generate default package.json<br>
 
-* node_modules
+> without -y:generate user-defined package.json<br>
+ `json "dependencies: {...}, devDependencies: {...}"` in package.json will be downloaded into node_modules with `npm install` , then you can require them with CommonJS syntax, eg. require('vue-loader')<br>
+> `json scripts{"dev": "someCommand"}` in package.json means that you can use corresponding相应的 alias to run user-defined npm command, eg. `npm run dev` = `someCommand`
+
+#### node_modules
 
 *(!) when change your root path property(like name), some error will happen when require the dependencies, node/module.js throw an module not found error*
 
@@ -26,7 +28,7 @@
 
 ### Error
 
-* `Error: You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build`
+#### `Error: You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build`
 
 > the err indicate that the vue module you import is runtime-only, <strong>resolution</strong> change imported vue version to dev version `import Vue from 'vue/dist/vue.js'(all js refered in webpack entry)`
 *(!) the resolution is General but respond on your vue path and available version, in webpack build, if you do not set your development('production'/'development'), default 'production', the vue version is also producion version: named `vue.common.js` or others*
@@ -37,7 +39,7 @@
 
 #### vue init (template_name)(project_name)
 
-* the convenient method to create a particular project with available demo
+#### the convenient method to create a particular project with available demo
 
 > eg. to create a webpack project `npm install -g @vue/cli-init
 #vue init now works exactly the same as vue-cli@2.x
@@ -45,18 +47,18 @@ vue init webpack my-project`
 
 #### vue-loader 
 
-* official tool to process .vue file
+#### official tool to process .vue file
 
 > alone vue-loader is not enough to process` <template/><script/><style/>`, need to add `css-loader`,`vue-template-compiler` and `vue`at least.
 
 ## webpack
 
-* It is not recommended to `npm install -g webpack`
+#### It is not recommended to `npm install -g webpack`
 
 > some unexpected errors will happen with using global webpack command to build a particular project<br>
 *(!) the errors is updating*
 
-* `module.exports = {...}`
+#### `module.exports = {...}`
 
 > https://webpack.js.org/concepts/
 
@@ -65,7 +67,7 @@ vue init webpack my-project`
 > (!) [type/translation], {environment}, (property/variable)<br>
 > tutorial: https://webpack.js.org/guides/hot-module-replacement/
 
-* Differences/Shared options with webpack
+#### Differences/Shared options with webpack
 
 > (entry) : define the files[array] needed to be packed <br>
 > (output) : (path) is the base path of the output packed file (filename);<br>
@@ -77,14 +79,15 @@ vue init webpack my-project`
 
 > example: to open HMR in {dev} 
 
-```
+```html
 ./index.html
 ...
 <div id="app"></div>
 <script src="./assets/built.js"></script>
 ...
+```
 
-
+```js
 ./build/webpack-dev-server.config.js
 module.exports = {
     entry: {
@@ -122,9 +125,9 @@ module.exports = {
 }
 ```
 
-* import ... from '@/...' (alias of symbol)
+#### import ... from '@/...' (alias of symbol)
 
-```
+```js
 ./required module
 import HelloWorld from '@/components/HelloWorld'
 
@@ -138,13 +141,13 @@ resolve: {
     }
   }
 ```
->then the '@' -> 'src', 'vue'-> 'vue/dist/vue.esm.js'
+> then the '@' -> 'src', 'vue'-> 'vue/dist/vue.esm.js'
 
-* loader and webpack
+#### loader and webpack
 
-> >> url-loader: think about the following .vue
+> url-loader: think about the following .vue
 
-```
+```html
 <template>
   <footer id="tabbar" class="flex-row">
     <!--IMG 0-->
@@ -178,7 +181,7 @@ export default {
 
 ## CommonJS & ES2015
 
-* require() and import
+#### require() and import
 
 > CommonJS:
 
