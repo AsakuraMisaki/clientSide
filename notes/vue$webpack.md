@@ -12,11 +12,11 @@
 
 #### npm init (options)
 
-> npm init (-y), with -y:generate default package.json<br>
+> npm init (-y), with -y: generate default package.json<br>
 
-> without -y:generate user-defined package.json<br>
- `json "dependencies: {...}, devDependencies: {...}"` in package.json will be downloaded into node_modules with `npm install` , then you can require them with CommonJS syntax, eg. require('vue-loader')<br>
-> `json scripts{"dev": "someCommand"}` in package.json means that you can use corresponding相应的 alias to run user-defined npm command, eg. `npm run dev` = `someCommand`
+> without -y: generate user-defined package.json<br>
+ `"dependencies: {...}, devDependencies: {...}"` in package.json will be downloaded into node_modules with `npm install` , then you can require them with CommonJS syntax, eg. require('vue-loader')<br>
+> `scripts{"dev": "someCommand"}` in package.json means that you can use corresponding相应的 alias to run user-defined npm command, eg. `npm run dev` = `someCommand`
 
 #### node_modules
 
