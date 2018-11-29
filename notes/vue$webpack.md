@@ -191,7 +191,8 @@ module.exports = EXPORTED_VAR;
 
 //./main.js
 //module = EXPORTED_VAR;
-var module = require("./module.js"); 
+var module = require("./module.js");
+console.log(module); 
 ```
 > ES2015:
 
@@ -202,6 +203,7 @@ export default { EXPORTED_VAR };
 //./main.js
 //module = EXPORTED_VAR;
 import module from "./module.js";
+console.log(module);
 ```
 
 > Diff: In chrome console.log, module(M0) obeying commonjs standard: 
