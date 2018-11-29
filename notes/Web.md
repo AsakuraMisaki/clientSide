@@ -35,7 +35,7 @@
 
 ## index.html
 
->this file is the default file to be rendered when browser connect to a website, as a result of that, <strong>in server side</strong>, you can just use *static file hosting静态文件托管* middlewares to send index.html to clients instead of write a get method
+>this file is the default file(of cause you can use another file) to be rendered when browser connect to a website, as a result of that, <strong>in server side</strong>, you can just use *static file hosting静态文件托管* middlewares to send index.html to clients instead of write a get method
 
 ## localhost
 

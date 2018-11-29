@@ -2,6 +2,7 @@
 * [npm](#npm)
 * [vue](#vue2.0+)
 * [webpack](#webpack)
+* [CommonJS & ES2015](#CommonJS+%26+ES2015)
 
 ## npm
 
@@ -175,3 +176,33 @@ export default {
 > * import staticFileURL from 'path of staticFile'(or require), then use staticFileURL as a legal url, make sure you install url-loader at first. the process [file-to-url] require it.
 > * rewrite the static-res-trust part of your {dev} config (updating)
 
+## CommonJS & ES2015
+
+* require() and import
+
+> CommonJS:
+
+```js
+//./module.js
+module.exports = EXPORTED_VAR;
+
+//./main.js
+//module = EXPORTED_VAR;
+var module = require("./module.js"); 
+```
+> ES2015:
+
+```js
+//./module.js
+export default { EXPORTED_VAR };
+
+//./main.js
+//module = EXPORTED_VAR;
+import module from "./module.js";
+```
+
+> Diff: In chrome console.log, module(M0) obeying commonjs standard: 
+```{default:{moduleDefined}, __esModule:true}```
+module(M1) obeying ES2015:
+```{moduleDefined}```<br>
+>> so you can resolve that ```M0.default === M1 //true```
