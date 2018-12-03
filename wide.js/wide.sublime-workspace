@@ -509,15 +509,6 @@
 			}
 		},
 		{
-			"file": "src/component/hello.vue",
-			"settings":
-			{
-				"buffer_size": 194,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
@@ -870,6 +861,7 @@
 	],
 	"file_history":
 	[
+		"/D/GitHub/Projects/clientSide/wide.js/src/component/hello.vue",
 		"/D/GitHub/Projects/hw/web/learn/package.json",
 		"/D/GitHub/Projects/nodeJSServer/gstes/nodejs/node_modules/express/node_modules/body-parser/README.md",
 		"/D/GitHub/Projects/clientSide/notes/DOM&&js(node,es,HTTP+).md",
@@ -996,8 +988,7 @@
 		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/user.svg",
 		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/guide.svg",
 		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/search press.svg",
-		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/drag.svg",
-		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/circle.svg"
+		"/D/GitHub/Projects/clientSide/testCase1/res/image/svg/drag.svg"
 	],
 	"find":
 	{
@@ -1060,7 +1051,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1095,6 +1086,9 @@
 							"SL.34.region_keys":
 							[
 							],
+							"SL.36.region_keys":
+							[
+							],
 							"SL.45.region_keys":
 							[
 							],
@@ -1112,50 +1106,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/component/hello.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								178,
-								178
-							]
-						],
-						"settings":
-						{
-							"SL.14.region_keys":
-							[
-							],
-							"SL.35.region_keys":
-							[
-							],
-							"SL.46.region_keys":
-							[
-							],
-							"SL.52.region_keys":
-							[
-							],
-							"SL.72.region_keys":
-							[
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
@@ -1183,11 +1133,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "build/webpack.dev.config.js",
 					"semi_transient": true,
 					"settings":
@@ -1205,6 +1155,9 @@
 						],
 						"settings":
 						{
+							"SL.39.region_keys":
+							[
+							],
 							"SL.48.region_keys":
 							[
 							],
@@ -1222,11 +1175,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "/D/Program Files/Apache24/htdocs/test/login.php",
 					"semi_transient": false,
 					"settings":
@@ -1251,7 +1204,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

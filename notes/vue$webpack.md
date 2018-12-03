@@ -51,6 +51,59 @@ vue init webpack my-project`
 
 > alone vue-loader is not enough to process` <template/><script/><style/>`, need to add `css-loader`,`vue-template-compiler` and `vue`at least.
 
+#### single component (.vue)
+
+* update data in .vue file
+
+> data() return an object which is bound to a new Vue.component(VC), so if you want to add the render condition(1) to the VC, you must use an _reference type(object/fn)_ instead of _base type(string/number/more)._
+***(1)eg. you want to render the const title first then request an article from your server, when the article is ready, render again***
+
+```html
+./example.vue
+
+<template>
+  <p>{{text}}</p>
+  <p>{{dynamic.text}}</p>
+</template>
+
+<script>
+var dynamic = {
+  text: "I can be real-timely updated"
+};
+var text = "I can not";
+// ajax to update the ob.text and text
+// 1.request(op, cb);
+// 2.res.data = "res success";
+// 2.ob.text = res.data; text = res.data;
+module.export = {
+  data(){
+    return {
+      dynamic,
+      text
+    }
+  }
+}
+</script>
+
+
+./index.js
+var c = require("./example.vue");
+new Vue({
+  el: "body>tag"
+  components:{
+    c
+  }
+  template: "<c/>"
+});
+
+
+./index.html
+<body>
+  <p>I can not</p>
+  <p>res successs</p>
+</body>
+```
+
 ## webpack
 
 #### It is not recommended to `npm install -g webpack`
