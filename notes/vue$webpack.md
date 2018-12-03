@@ -1,7 +1,7 @@
 # Webpack And Vue.js Projects Build
 * [npm](#npm)
-* [vue](#vue2.0+)
-* [webpack](#vue20)
+* [vue](#vue20)
+* [webpack](#webpack)
 * [CommonJS & ES2015](#commonjs--es2015)
 
 ## npm
